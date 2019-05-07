@@ -1,0 +1,282 @@
+{
+    "root": {
+        "data": {
+            "id": "btwxjmw944g0",
+            "created": 1557211891025,
+            "text": "Effective Java"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "btwxjyf02uo0",
+                    "created": 1557211916103,
+                    "text": "Creating and Destorying",
+                    "expandState": "expand",
+                    "layout_mind_offset": {
+                        "x": 18,
+                        "y": 8
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "btwxkpwo8q00",
+                            "created": 1557211975945,
+                            "text": "1. Static factory method"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "btwzrvr7l3s0",
+                                    "created": 1557218179444,
+                                    "text": "Advantage",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "btwytw4pej40",
+                                            "created": 1557215515880,
+                                            "text": "1. name, good to read"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "btwyu3dsyo80",
+                                            "created": 1557215531666,
+                                            "text": "2. Can be cached, *Flyweight*"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "btwzordde080",
+                                            "created": 1557217934808,
+                                            "text": "3. Can return subtype to hide the details"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "btwzp7awmd40",
+                                            "created": 1557217969487,
+                                            "text": "4. The return object NO need to be exist. *JDBC*"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "btwzs8e3n740",
+                                    "created": 1557218206950,
+                                    "text": "implementation",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "btwzsyxgcn40",
+                                            "created": 1557218264716,
+                                            "text": "from"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "btwzt4fzhco0",
+                                            "created": 1557218276721,
+                                            "text": "of"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "btwzt5fzx5s0",
+                                            "created": 1557218278898,
+                                            "text": "valueOf"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "btwzt8rg46w0",
+                                            "created": 1557218286121,
+                                            "text": "instance"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "btwztafufio0",
+                                            "created": 1557218289773,
+                                            "text": "create or newInstance"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "btwztf8xfmo0",
+                                            "created": 1557218300239,
+                                            "text": "getType"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "btwztjbabew0",
+                                            "created": 1557218309088,
+                                            "text": "newType"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "btwztkz25fs0",
+                                            "created": 1557218312703,
+                                            "text": "type"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "btwztqge0g80",
+                                                    "created": 1557218324635,
+                                                    "text": "List<Complaint>\tlitany\t=\tCollections.list(legacyLitany);"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "btwxl1oxqv40",
+                            "created": 1557212001599,
+                            "text": "2. Builder instead of many parameters constructor"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "btwxmdsv9eg0",
+                            "created": 1557212106322,
+                            "text": "3. Singleton"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "btwysc87amg0",
+                                    "created": 1557215394191,
+                                    "text": "Security",
+                                    "expandState": "collapse",
+                                    "layout_right_offset": {
+                                        "x": -1,
+                                        "y": -1
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "btwynhhdqyg0",
+                                            "created": 1557215013809,
+                                            "text": "Serializable",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "btwyq1srrts0",
+                                                    "created": 1557215214761,
+                                                    "text": "Singleton property",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "btwyogrl83s0",
+                                                            "created": 1557215090613,
+                                                            "text": "1. Mark all fields as *transient*"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "btwypexol1s0",
+                                                            "created": 1557215164992,
+                                                            "text": "2. Provide *readResolve*"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "btwyqljlk1s0",
+                                                    "created": 1557215257742,
+                                                    "text": "Enum Singleton",
+                                                    "font-weight": "bold"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "btwyn2a0ars0",
+                                            "created": 1557214980711,
+                                            "text": "Reflection",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "btwyn687vzk0",
+                                                    "created": 1557214989310,
+                                                    "text": "throw exception in *private* constructor"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "btwzl8u7yb40",
+                                    "created": 1557217659375,
+                                    "text": "Disadvantage",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "btwzlypw75c0",
+                                            "created": 1557217715710,
+                                            "text": "Flexibility"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "btwzmi5v3e00",
+                                            "created": 1557217758035,
+                                            "text": "Testability"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
