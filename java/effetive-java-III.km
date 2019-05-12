@@ -172,7 +172,7 @@
                                     "id": "btwysc87amg0",
                                     "created": 1557215394191,
                                     "text": "Security",
-                                    "expandState": "collapse",
+                                    "expandState": "expand",
                                     "layout_right_offset": {
                                         "x": -1,
                                         "y": -1
@@ -273,6 +273,14 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "bu0pk1qm44o0",
+                    "created": 1557595594283,
+                    "text": "LocalVariableTableParameterNameDiscoverer"
+                },
+                "children": []
             }
         ]
     },
