@@ -1,0 +1,225 @@
+{
+    "root": {
+        "data": {
+            "id": "bu29cy41ixc0",
+            "created": 1557753019994,
+            "text": "DevOps"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bu29d03dl2g0",
+                    "created": 1557753024307,
+                    "text": "Jenkins",
+                    "layout_mind_offset": {
+                        "x": -81,
+                        "y": 0
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bu29d2iiq1c0",
+                    "created": 1557753029576,
+                    "text": "Docker",
+                    "layout_mind_offset": {
+                        "x": -63,
+                        "y": 1
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu29d8w31kg0",
+                            "created": 1557753043457,
+                            "text": "原理",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu29es8xfcg0",
+                                    "created": 1557753163957,
+                                    "text": "cgroup"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu29ewp0r080",
+                                    "created": 1557753173638,
+                                    "text": "Namesapce"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu29f0xjnc00",
+                                    "created": 1557753182860,
+                                    "text": "UFS( Union File System)"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu29q0o9hw00",
+                            "created": 1557754044304,
+                            "text": "镜像(Image)"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu29q6mzxnc0",
+                                    "created": 1557754057288,
+                                    "text": "镜像制作"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu29qbp70u80",
+                                            "created": 1557754068305,
+                                            "text": "scratch镜像"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu29sdb3m880",
+                                            "created": 1557754228535,
+                                            "text": "busybox(1.16M)"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu29u9dn1vs0",
+                                            "created": 1557754376710,
+                                            "text": "alpine"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu29d64wkm80",
+                            "created": 1557753037460,
+                            "text": "网络问题",
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": 3,
+                                "y": 28
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu29eiau06g0",
+                                    "created": 1557753142304,
+                                    "text": "Overlay"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu29em3lv3s0",
+                                    "created": 1557753150574,
+                                    "text": "分支主题"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu29dz2k5iw0",
+                            "created": 1557753100445,
+                            "text": "容器编排",
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": -6,
+                                "y": -8
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu29e7u1pm00",
+                                    "created": 1557753119521,
+                                    "text": "Swarm",
+                                    "layout_right_offset": {
+                                        "x": -9,
+                                        "y": 0
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu29eaxi3og0",
+                                    "created": 1557753126261,
+                                    "text": "Kubernetes",
+                                    "layout_right_offset": {
+                                        "x": 0,
+                                        "y": -3
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu29mr8ijnc0",
+                            "created": 1557753788668,
+                            "text": "问题",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu29mtec8ps0",
+                                    "created": 1557753793374,
+                                    "text": "时间问题",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu29mzda94g0",
+                                            "created": 1557753806371,
+                                            "text": "全局只有一个系统时钟，但可以有多个时区",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu29dhyv7nc0",
+                    "created": 1557753063217,
+                    "text": "Nagios",
+                    "layout_mind_offset": {
+                        "x": 65,
+                        "y": 0
+                    }
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
