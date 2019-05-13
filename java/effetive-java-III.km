@@ -3,65 +3,347 @@
         "data": {
             "id": "btwxjmw944g0",
             "created": 1557211891025,
-            "text": "Effective Java"
+            "text": "大千世界，万物之源"
         },
         "children": [
             {
                 "data": {
-                    "id": "btwxjyf02uo0",
-                    "created": 1557211916103,
-                    "text": "Creating and Destorying",
-                    "expandState": "expand",
+                    "id": "bu1u52nn4io0",
+                    "created": 1557710086324,
+                    "text": "程序设计",
                     "layout_mind_offset": {
-                        "x": 18,
-                        "y": 8
-                    }
+                        "x": -52.75000031664979,
+                        "y": -5
+                    },
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
                         "data": {
-                            "id": "btwxkpwo8q00",
-                            "created": 1557211975945,
-                            "text": "1. Static factory method"
+                            "id": "bu1u5cik6y00",
+                            "created": 1557710107785,
+                            "text": "JAVA",
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "btwzrvr7l3s0",
-                                    "created": 1557218179444,
-                                    "text": "Advantage",
-                                    "expandState": "collapse"
+                                    "id": "bu1u73nbp2g0",
+                                    "created": 1557710245210,
+                                    "text": "Java源代码",
+                                    "expandState": "expand",
+                                    "layout_right_offset": {
+                                        "x": -8.333333002196412,
+                                        "y": 11.66666620307501
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1wdgqsu9k0",
+                                    "created": 1557716386123,
+                                    "text": "书籍",
+                                    "layout_right_offset": {
+                                        "x": 6.24999928598595,
+                                        "y": -96.24999875202775
+                                    },
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "btwytw4pej40",
-                                            "created": 1557215515880,
-                                            "text": "1. name, good to read"
+                                            "id": "bu1u5iq7l7s0",
+                                            "created": 1557710121308,
+                                            "text": "Effective Java",
+                                            "expandState": "expand"
                                         },
-                                        "children": []
-                                    },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "btwxjyf02uo0",
+                                                    "created": 1557211916103,
+                                                    "text": "对象创建销毁",
+                                                    "expandState": "collapse"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "btwxkpwo8q00",
+                                                            "created": 1557211975945,
+                                                            "text": "1. Static factory method"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "btwzrvr7l3s0",
+                                                                    "created": 1557218179444,
+                                                                    "text": "Advantage",
+                                                                    "expandState": "collapse"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "btwytw4pej40",
+                                                                            "created": 1557215515880,
+                                                                            "text": "1. name, good to read"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "btwyu3dsyo80",
+                                                                            "created": 1557215531666,
+                                                                            "text": "2. Can be cached, *Flyweight*"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "btwzordde080",
+                                                                            "created": 1557217934808,
+                                                                            "text": "3. Can return subtype to hide the details"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "btwzp7awmd40",
+                                                                            "created": 1557217969487,
+                                                                            "text": "4. The return object NO need to be exist. *JDBC*"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "btwzs8e3n740",
+                                                                    "created": 1557218206950,
+                                                                    "text": "implementation",
+                                                                    "expandState": "collapse"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "btwzsyxgcn40",
+                                                                            "created": 1557218264716,
+                                                                            "text": "from"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "btwzt4fzhco0",
+                                                                            "created": 1557218276721,
+                                                                            "text": "of"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "btwzt5fzx5s0",
+                                                                            "created": 1557218278898,
+                                                                            "text": "valueOf"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "btwzt8rg46w0",
+                                                                            "created": 1557218286121,
+                                                                            "text": "instance"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "btwztafufio0",
+                                                                            "created": 1557218289773,
+                                                                            "text": "create or newInstance"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "btwztf8xfmo0",
+                                                                            "created": 1557218300239,
+                                                                            "text": "getType"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "btwztjbabew0",
+                                                                            "created": 1557218309088,
+                                                                            "text": "newType"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "btwztkz25fs0",
+                                                                            "created": 1557218312703,
+                                                                            "text": "type"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "btwztqge0g80",
+                                                                                    "created": 1557218324635,
+                                                                                    "text": "List<Complaint>\tlitany\t=\tCollections.list(legacyLitany);"
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "btwxl1oxqv40",
+                                                            "created": 1557212001599,
+                                                            "text": "2. Builder instead of many parameters constructor"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "btwxmdsv9eg0",
+                                                            "created": 1557212106322,
+                                                            "text": "3. Singleton"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "btwysc87amg0",
+                                                                    "created": 1557215394191,
+                                                                    "text": "Security",
+                                                                    "expandState": "expand",
+                                                                    "layout_right_offset": {
+                                                                        "x": -1,
+                                                                        "y": -1
+                                                                    }
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "btwynhhdqyg0",
+                                                                            "created": 1557215013809,
+                                                                            "text": "Serializable",
+                                                                            "expandState": "expand"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "btwyq1srrts0",
+                                                                                    "created": 1557215214761,
+                                                                                    "text": "Singleton property",
+                                                                                    "expandState": "expand"
+                                                                                },
+                                                                                "children": [
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "id": "btwyogrl83s0",
+                                                                                            "created": 1557215090613,
+                                                                                            "text": "1. Mark all fields as *transient*"
+                                                                                        },
+                                                                                        "children": []
+                                                                                    },
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "id": "btwypexol1s0",
+                                                                                            "created": 1557215164992,
+                                                                                            "text": "2. Provide *readResolve*"
+                                                                                        },
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "btwyqljlk1s0",
+                                                                                    "created": 1557215257742,
+                                                                                    "text": "Enum Singleton",
+                                                                                    "font-weight": "bold"
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "btwyn2a0ars0",
+                                                                            "created": 1557214980711,
+                                                                            "text": "Reflection",
+                                                                            "expandState": "expand"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "btwyn687vzk0",
+                                                                                    "created": 1557214989310,
+                                                                                    "text": "throw exception in *private* constructor"
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "btwzl8u7yb40",
+                                                                    "created": 1557217659375,
+                                                                    "text": "Disadvantage",
+                                                                    "expandState": "collapse"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "btwzlypw75c0",
+                                                                            "created": 1557217715710,
+                                                                            "text": "Flexibility"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "btwzmi5v3e00",
+                                                                            "created": 1557217758035,
+                                                                            "text": "Testability"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1uae6qbk00",
+                                    "created": 1557710503244,
+                                    "text": "Spring",
+                                    "expandState": "expand",
+                                    "layout_right_offset": {
+                                        "x": 7.499999701976719,
+                                        "y": -39.999998410542844
+                                    }
+                                },
+                                "children": [
                                     {
                                         "data": {
-                                            "id": "btwyu3dsyo80",
-                                            "created": 1557215531666,
-                                            "text": "2. Can be cached, *Flyweight*"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "btwzordde080",
-                                            "created": 1557217934808,
-                                            "text": "3. Can return subtype to hide the details"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "btwzp7awmd40",
-                                            "created": 1557217969487,
-                                            "text": "4. The return object NO need to be exist. *JDBC*"
+                                            "id": "bu0pk1qm44o0",
+                                            "created": 1557595594283,
+                                            "text": "LocalVariableTableParameterNameDiscoverer"
                                         },
                                         "children": []
                                     }
@@ -69,80 +351,550 @@
                             },
                             {
                                 "data": {
-                                    "id": "btwzs8e3n740",
-                                    "created": 1557218206950,
-                                    "text": "implementation",
-                                    "expandState": "collapse"
+                                    "id": "bu1vvndbv5s0",
+                                    "created": 1557714989991,
+                                    "text": "JVM",
+                                    "layout_right_offset": {
+                                        "x": 4.9999998013179265,
+                                        "y": -40.833331710762536
+                                    }
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "btwzsyxgcn40",
-                                            "created": 1557218264716,
-                                            "text": "from"
+                                            "id": "bu1wpra06xs0",
+                                            "created": 1557717349422,
+                                            "text": "垃圾回收"
                                         },
                                         "children": []
-                                    },
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu1u7rxi2lc0",
+                            "created": 1557710298068,
+                            "text": "Golang"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu1ua2m13j40",
+                            "created": 1557710478048,
+                            "text": "C/C++"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu1ub0xd2a00",
+                            "created": 1557710552743,
+                            "text": "Javascript",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1ub4r0rd40",
+                                    "created": 1557710561067,
+                                    "text": "VUE"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1ubhxr6eo0",
+                                    "created": 1557710589772,
+                                    "text": "React"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1ubshs2u80",
+                                    "created": 1557710612751,
+                                    "text": "Angular"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu1ub90a0w00",
+                            "created": 1557710570334,
+                            "text": "Dart"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1ubclelu00",
+                                    "created": 1557710578142,
+                                    "text": "Flutter"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu1u7uy24sw0",
+                    "created": 1557710304632,
+                    "text": "架构",
+                    "layout_mind_offset": {
+                        "x": -58.24999983236194,
+                        "y": 2.499999962747154
+                    },
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1u7z9slns0",
+                            "created": 1557710314049,
+                            "text": "分布式",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1u8sh5pbs0",
+                                    "created": 1557710377621,
+                                    "text": "一致性"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1u8z1xneg0",
+                                    "created": 1557710391938,
+                                    "text": "幂等性"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1vv6xc4740",
+                                    "created": 1557714954196,
+                                    "text": "分布式锁"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1vvdqcfrc0",
+                                    "created": 1557714969010,
+                                    "text": "分布式事务"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu1v3kkqzkw0",
+                            "created": 1557712789713,
+                            "text": "高并发"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1w3tgsjs00",
+                                    "created": 1557715630176,
+                                    "text": "设计方法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu1v3nnd1hs0",
+                            "created": 1557712796401,
+                            "text": "高可用"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1w8y9h5lc0",
+                                    "created": 1557716032437,
+                                    "text": "CAP"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1w8zsnvoo0",
+                                    "created": 1557716035774,
+                                    "text": "BASE"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu1vwm5vw6g0",
+                            "created": 1557715065728,
+                            "text": "负载均衡",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1vwvc9llc0",
+                                    "created": 1557715085705,
+                                    "text": "负载均衡系统"
+                                },
+                                "children": [
                                     {
                                         "data": {
-                                            "id": "btwzt4fzhco0",
-                                            "created": 1557218276721,
-                                            "text": "of"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "btwzt5fzx5s0",
-                                            "created": 1557218278898,
-                                            "text": "valueOf"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "btwzt8rg46w0",
-                                            "created": 1557218286121,
-                                            "text": "instance"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "btwztafufio0",
-                                            "created": 1557218289773,
-                                            "text": "create or newInstance"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "btwztf8xfmo0",
-                                            "created": 1557218300239,
-                                            "text": "getType"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "btwztjbabew0",
-                                            "created": 1557218309088,
-                                            "text": "newType"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "btwztkz25fs0",
-                                            "created": 1557218312703,
-                                            "text": "type"
+                                            "id": "bu1vx2iaz7c0",
+                                            "created": 1557715101308,
+                                            "text": "硬件",
+                                            "expandState": "collapse"
                                         },
                                         "children": [
                                             {
                                                 "data": {
-                                                    "id": "btwztqge0g80",
-                                                    "created": 1557218324635,
-                                                    "text": "List<Complaint>\tlitany\t=\tCollections.list(legacyLitany);"
+                                                    "id": "bu1vx5kzf140",
+                                                    "created": 1557715108000,
+                                                    "text": "F5"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu1vx8h4i2g0",
+                                                    "created": 1557715114297,
+                                                    "text": "A10"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu1vx9yx9680",
+                                                    "created": 1557715117550,
+                                                    "text": "Radware"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1vxdqxpio0",
+                                            "created": 1557715125774,
+                                            "text": "软件",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu1vxhbwlzk0",
+                                                    "created": 1557715133573,
+                                                    "text": "LVS"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu1vxjupsi00",
+                                                            "created": 1557715139064,
+                                                            "text": "4层"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu1vxqpbye00",
+                                                    "created": 1557715153976,
+                                                    "text": "Nginx"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu1vxtdh8u80",
+                                                            "created": 1557715159789,
+                                                            "text": "7层"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu1vxx5hbw80",
+                                                    "created": 1557715168013,
+                                                    "text": "HAProxy"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu1vy0xn0280",
+                                                            "created": 1557715176246,
+                                                            "text": "4层",
+                                                            "layout_right_offset": {
+                                                                "x": -15,
+                                                                "y": -1
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu1vy54ep0o0",
+                                                    "created": 1557715185362,
+                                                    "text": "Apache"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu1vy983vl40",
+                                                            "created": 1557715194293,
+                                                            "text": "7层"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1vyk4y5sw0",
+                                            "created": 1557715218047,
+                                            "text": "代理类型",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu1vyrgxifk0",
+                                                    "created": 1557715234009,
+                                                    "text": "反向代理"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu1vytxkxdk0",
+                                                    "created": 1557715239369,
+                                                    "text": "正向代理"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1vyyun9zs0",
+                                    "created": 1557715250075,
+                                    "text": "负载均衡算法",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu1vz416di80",
+                                            "created": 1557715261354,
+                                            "text": "Dubbo LoadBalance",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu1vzbyfwnc0",
+                                                    "created": 1557715278603,
+                                                    "text": "Random"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu1vzhloby00",
+                                                            "created": 1557715290892,
+                                                            "text": "随机"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu1vzmoa1wg0",
+                                                    "created": 1557715301933,
+                                                    "text": "RoundBobin"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu1vzw0l9ew0",
+                                                            "created": 1557715322269,
+                                                            "text": "轮循"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu1w08v55wo0",
+                                                    "created": 1557715350237,
+                                                    "text": "ConsistentHash",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu1w0fj7n1c0",
+                                                            "created": 1557715364753,
+                                                            "text": "一致性Hash",
+                                                            "layout_right_offset": {
+                                                                "x": -26,
+                                                                "y": 0
+                                                            },
+                                                            "expandState": "expand"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu1w25nbqr40",
+                                                                    "created": 1557715499963,
+                                                                    "text": "TODO 什么是一致性Hash",
+                                                                    "priority": 2
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1w0qozkjk0",
+                                    "created": 1557715389047,
+                                    "text": "故障恢复机制"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu1w12fvws80",
+                                            "created": 1557715414618,
+                                            "text": "核心问题"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu1w31hm92o0",
+                            "created": 1557715569275,
+                            "text": "服务无状态设计",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1w449ucz40",
+                                    "created": 1557715653699,
+                                    "text": "定义"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu1w4dwq0ww0",
+                                            "created": 1557715674673,
+                                            "text": "冗余部署多个模块（进程）完全对等"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1w4rshk1k0",
+                                            "created": 1557715704892,
+                                            "text": "请求提交到冗余部署的任一模块，处理结果完全一样"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1w575dhwo0",
+                                            "created": 1557715738323,
+                                            "text": "模块不存储业务的上下文件信息"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1w5f31scw0",
+                                            "created": 1557715755597,
+                                            "text": "仅根据每次请求携带数据进行相应的业务逻辑处理"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1w4a2n64g0",
+                                    "created": 1557715666324,
+                                    "text": "案例"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu1w61fnilk0",
+                                            "created": 1557715804248,
+                                            "text": "用户session"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu1w64f2cew0",
+                                                    "created": 1557715810743,
+                                                    "text": "登陆方式"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu1w69anfu00",
+                                                    "created": 1557715821360,
+                                                    "text": "分支主题"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1w6hxzbfk0",
+                                            "created": 1557715840185,
+                                            "text": "session怎么存放"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu1w6rm9srk0",
+                                                    "created": 1557715861245,
+                                                    "text": "Redis"
                                                 },
                                                 "children": []
                                             }
@@ -154,71 +906,156 @@
                     },
                     {
                         "data": {
-                            "id": "btwxl1oxqv40",
-                            "created": 1557212001599,
-                            "text": "2. Builder instead of many parameters constructor"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "btwxmdsv9eg0",
-                            "created": 1557212106322,
-                            "text": "3. Singleton"
+                            "id": "bu1w7pdxeuw0",
+                            "created": 1557715934752,
+                            "text": "微服务"
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "btwysc87amg0",
-                                    "created": 1557215394191,
-                                    "text": "Security",
-                                    "expandState": "expand",
-                                    "layout_right_offset": {
-                                        "x": -1,
-                                        "y": -1
-                                    }
+                                    "id": "bu1w7x58qu80",
+                                    "created": 1557715951640,
+                                    "text": "架构分类"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu1w1lwpywo0",
+                            "created": 1557715456995,
+                            "text": "应用及案例"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1w1ssukp40",
+                                    "created": 1557715471999,
+                                    "text": "CDN"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1w8alob800",
+                                    "created": 1557715980932,
+                                    "text": "秒杀"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu1u86t7pvc0",
+                    "created": 1557710330461,
+                    "text": "数据库",
+                    "layout_mind_offset": {
+                        "x": -62.74999994412053,
+                        "y": 19.749999497085753
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1wjueevqo0",
+                            "created": 1557716886034,
+                            "text": "关系型数据库",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1wjzrmz6o0",
+                                    "created": 1557716897718,
+                                    "text": "数据库规范"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1winm2kps0",
+                                    "created": 1557716792896,
+                                    "text": "数据库设计范式",
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "btwynhhdqyg0",
-                                            "created": 1557215013809,
-                                            "text": "Serializable",
-                                            "expandState": "expand"
+                                            "id": "bu1wncpqb5s0",
+                                            "created": 1557717160993,
+                                            "text": "第一范式"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1wncpqb5s0",
+                                            "created": 1557717160993,
+                                            "text": "第二范式"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1wncpqb5s0",
+                                            "created": 1557717160993,
+                                            "text": "第三范式"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1wicbed000",
+                                    "created": 1557716768306,
+                                    "text": "SQL优化"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1wgq3s9eg0",
+                                    "created": 1557716641592,
+                                    "text": " 高并发方案",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu1wgaqsdyw0",
+                                            "created": 1557716608154,
+                                            "text": "分库",
+                                            "expandState": "collapse"
                                         },
                                         "children": [
                                             {
                                                 "data": {
-                                                    "id": "btwyq1srrts0",
-                                                    "created": 1557215214761,
-                                                    "text": "Singleton property",
-                                                    "expandState": "expand"
+                                                    "id": "bu1wh24o4q80",
+                                                    "created": 1557716667767,
+                                                    "text": "定义"
                                                 },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "btwyogrl83s0",
-                                                            "created": 1557215090613,
-                                                            "text": "1. Mark all fields as *transient*"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "btwypexol1s0",
-                                                            "created": 1557215164992,
-                                                            "text": "2. Provide *readResolve*"
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
+                                                "children": []
                                             },
                                             {
                                                 "data": {
-                                                    "id": "btwyqljlk1s0",
-                                                    "created": 1557215257742,
-                                                    "text": "Enum Singleton",
-                                                    "font-weight": "bold"
+                                                    "id": "bu1whby3xug0",
+                                                    "created": 1557716689138,
+                                                    "text": "方案"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu1wgg3vexs0",
+                                                    "created": 1557716619829,
+                                                    "text": "优点",
+                                                    "expandState": "expand"
                                                 },
                                                 "children": []
                                             }
@@ -226,17 +1063,51 @@
                                     },
                                     {
                                         "data": {
-                                            "id": "btwyn2a0ars0",
-                                            "created": 1557214980711,
-                                            "text": "Reflection",
-                                            "expandState": "expand"
+                                            "id": "bu1wgaqsdyw0",
+                                            "created": 1557716608154,
+                                            "text": "分表",
+                                            "expandState": "collapse"
                                         },
                                         "children": [
                                             {
                                                 "data": {
-                                                    "id": "btwyn687vzk0",
-                                                    "created": 1557214989310,
-                                                    "text": "throw exception in *private* constructor"
+                                                    "id": "bu1wh24o4q80",
+                                                    "created": 1557716667767,
+                                                    "text": "定义"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu1whby3xug0",
+                                                    "created": 1557716689138,
+                                                    "text": "方案"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu1whon6g940",
+                                                            "created": 1557716716775,
+                                                            "text": "水平分表"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu1whry5r4o0",
+                                                            "created": 1557716723969,
+                                                            "text": "垂直分表"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu1wgg3vexs0",
+                                                    "created": 1557716619829,
+                                                    "text": "优点",
+                                                    "expandState": "expand"
                                                 },
                                                 "children": []
                                             }
@@ -246,25 +1117,239 @@
                             },
                             {
                                 "data": {
-                                    "id": "btwzl8u7yb40",
-                                    "created": 1557217659375,
-                                    "text": "Disadvantage",
+                                    "id": "bu1wkc97wdk0",
+                                    "created": 1557716924902,
+                                    "text": "数据库类型",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu1u8h3d2l40",
+                                            "created": 1557710352842,
+                                            "text": "MySQL"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu1wlanbxk00",
+                                                    "created": 1557716999766,
+                                                    "text": "InnoDB"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu1wlewewhc0",
+                                                    "created": 1557717009022,
+                                                    "text": "MyIASM"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1wkplqq740",
+                                            "created": 1557716953958,
+                                            "text": "Postgres"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu1wa150jog0",
+                            "created": 1557716117062,
+                            "text": "NoSQL",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1u8nohw200",
+                                    "created": 1557710367181,
+                                    "text": "Redis",
                                     "expandState": "collapse"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "btwzlypw75c0",
-                                            "created": 1557217715710,
-                                            "text": "Flexibility"
+                                            "id": "bu1wag1idi80",
+                                            "created": 1557716149502,
+                                            "text": "基础知识"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu1walepmmo0",
+                                                    "created": 1557716161184,
+                                                    "text": "数据类型"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu1waqjqvj40",
+                                                            "created": 1557716172372,
+                                                            "text": "跳表"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1w9fq035c0",
+                                            "created": 1557716070442,
+                                            "text": "分布式方案"
                                         },
                                         "children": []
                                     },
                                     {
                                         "data": {
-                                            "id": "btwzmi5v3e00",
-                                            "created": 1557217758035,
-                                            "text": "Testability"
+                                            "id": "bu1w92mx8a80",
+                                            "created": 1557716041957,
+                                            "text": "问题及解决方案"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu1wb2e9go80",
+                                                    "created": 1557716198162,
+                                                    "text": "分布式锁"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu1w9lt5bc00",
+                                                    "created": 1557716083692,
+                                                    "text": "雪崩"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu1weufstp40",
+                                                    "created": 1557716494297,
+                                                    "text": "超卖"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1wa7ns7b40",
+                                    "created": 1557716131257,
+                                    "text": "Memcached"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu1u9p3akkw0",
+                            "created": 1557710448616,
+                            "text": "ElasticSearch"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu1wbhkvkww0",
+                    "created": 1557716231214,
+                    "text": "大数据",
+                    "layout_mind_offset": {
+                        "x": -56.5000000372529,
+                        "y": 27.249999608844405
+                    },
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1wbpb3gxs0",
+                            "created": 1557716248036,
+                            "text": "存储与查询",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1wbls4rbk0",
+                                    "created": 1557716240359,
+                                    "text": "Hadoop"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu1wcs6zo080",
+                                            "created": 1557716332683,
+                                            "text": "Map/Reduce"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu1wbyb9qdk0",
+                            "created": 1557716267638,
+                            "text": "计算",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1wc497cig0",
+                                    "created": 1557716280574,
+                                    "text": "实时",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu1wc05rleg0",
+                                            "created": 1557716271659,
+                                            "text": "Flink"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1wc9n1em00",
+                                    "created": 1557716292294,
+                                    "text": "离线"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu1wcgudh5s0",
+                                            "created": 1557716307975,
+                                            "text": "HBase"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1wcloss3k0",
+                                            "created": 1557716318522,
+                                            "text": "Spark"
                                         },
                                         "children": []
                                     }
@@ -276,11 +1361,158 @@
             },
             {
                 "data": {
-                    "id": "bu0pk1qm44o0",
-                    "created": 1557595594283,
-                    "text": "LocalVariableTableParameterNameDiscoverer"
+                    "id": "bu1wp2oamj40",
+                    "created": 1557717295867,
+                    "text": "人工智能",
+                    "layout_mind_offset": {
+                        "x": -52.083330922242794,
+                        "y": -8.74999986961484
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1wum8g1iw0",
+                            "created": 1557717730265,
+                            "text": "定义"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu1wuhal7q00",
+                            "created": 1557717719511,
+                            "text": "算法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu1wu39hdsw0",
+                            "created": 1557717688969,
+                            "text": "机器学习",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1wuaqtbvc0",
+                                    "created": 1557717705254,
+                                    "text": "神经网络"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu1wp9qyjs80",
+                    "created": 1557717311265,
+                    "text": "物联网",
+                    "layout_mind_offset": {
+                        "x": 76.24999662861237,
+                        "y": 66.66666532142304
+                    },
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1wv4pmueo0",
+                            "created": 1557717770486,
+                            "text": "网络协议"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1wvc99pvk0",
+                                    "created": 1557717786911,
+                                    "text": "MQTT"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu1wvfd31a00",
+                            "created": 1557717793672,
+                            "text": "安全"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu1u8beqp400",
+                    "created": 1557710340470,
+                    "text": "网络",
+                    "layout_mind_offset": {
+                        "x": 68.99999932944775,
+                        "y": -82.25000191852445
+                    }
                 },
                 "children": []
+            },
+            {
+                "data": {
+                    "id": "bu1u8e7fqg80",
+                    "created": 1557710346559,
+                    "text": "算法",
+                    "layout_mind_offset": {
+                        "x": 62.499999962747154,
+                        "y": 38.250000204890966
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bu1u9jf21ls0",
+                    "created": 1557710436267,
+                    "text": "中间件",
+                    "layout_mind_offset": {
+                        "x": 62.50000011175882,
+                        "y": 51.749999869614896
+                    },
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1wtdveczs0",
+                            "created": 1557717633698,
+                            "text": "Kafka"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu1uc6qnnig0",
+                    "created": 1557710643763,
+                    "text": "安全",
+                    "layout_mind_offset": {
+                        "x": 60.000000074505806,
+                        "y": 61
+                    },
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1wtj4ngs00",
+                            "created": 1557717645141,
+                            "text": "攻击"
+                        },
+                        "children": []
+                    }
+                ]
             }
         ]
     },
