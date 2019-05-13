@@ -1,0 +1,24 @@
+{
+    "root": {
+        "data": {
+            "id": "btwxjmw944g0",
+            "created": 1557211891025,
+            "text": "安全",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bu1wtj4ngs00",
+                    "created": 1557717645141,
+                    "text": "攻击",
+                    "layout": null
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

@@ -1,0 +1,24 @@
+{
+    "root": {
+        "data": {
+            "id": "btwxjmw944g0",
+            "created": 1557211891025,
+            "text": "系统",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bu1zho0ylmw0",
+                    "created": 1557725178761,
+                    "text": "linux",
+                    "layout": null
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

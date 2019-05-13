@@ -1,0 +1,712 @@
+{
+    "root": {
+        "data": {
+            "id": "btwxjmw944g0",
+            "created": 1557211891025,
+            "text": "架构",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bu20ctpmva80",
+                    "created": 1557727620426,
+                    "text": "理论及模式",
+                    "expandState": "collapse",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu20d0yk0qg0",
+                            "created": 1557727636203,
+                            "text": "设计模式",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu20d3zct5k0",
+                            "created": 1557727642782,
+                            "text": "设计模式六大原则",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu20e07okvk0",
+                                    "created": 1557727712943,
+                                    "text": "开闭原则",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu20ekkee8w0",
+                                    "created": 1557727757247,
+                                    "text": "单一职责原则",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu20eoe1sbc0",
+                                    "created": 1557727765570,
+                                    "text": "里氏替换原则",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu20et1xxr40",
+                                    "created": 1557727775722,
+                                    "text": "依赖倒置原则",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu20ewi8bfk0",
+                                    "created": 1557727783237,
+                                    "text": "接口隔离原则",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu20f06wxk00",
+                                    "created": 1557727791260,
+                                    "text": "迪米特法则",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu1u7z9slns0",
+                    "created": 1557710314049,
+                    "text": "分布式",
+                    "expandState": "collapse",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1u8sh5pbs0",
+                            "created": 1557710377621,
+                            "text": "一致性",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu1u8z1xneg0",
+                            "created": 1557710391938,
+                            "text": "幂等性",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu1vv6xc4740",
+                            "created": 1557714954196,
+                            "text": "分布式锁",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu1vvdqcfrc0",
+                            "created": 1557714969010,
+                            "text": "分布式事务",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu24jwnegd40",
+                                    "created": 1557739459810,
+                                    "text": "原理",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu24jjkieyw0",
+                                            "created": 1557739431338,
+                                            "text": "2PC"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu24jor5g0w0",
+                                            "created": 1557739442623,
+                                            "text": "3PC"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu24k4c22rs0",
+                                    "created": 1557739476539,
+                                    "text": "实现"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu24kbkfxcg0",
+                                            "created": 1557739492283,
+                                            "text": "SOFA"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu24ke9xntc0",
+                                            "created": 1557739498178,
+                                            "text": "MySQL XA"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu1v3nnd1hs0",
+                    "created": 1557712796401,
+                    "text": "高可用",
+                    "layout": null,
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1w8y9h5lc0",
+                            "created": 1557716032437,
+                            "text": "CAP",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu1w8zsnvoo0",
+                            "created": 1557716035774,
+                            "text": "BASE",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu24lv5msz40",
+                            "created": 1557739613288,
+                            "text": "限流"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu24ly7rfs80",
+                            "created": 1557739619947,
+                            "text": "降级"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu1v3kkqzkw0",
+                    "created": 1557712789713,
+                    "text": "高并发",
+                    "layout": null,
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1w3tgsjs00",
+                            "created": 1557715630176,
+                            "text": "设计方法",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu1w1lwpywo0",
+                    "created": 1557715456995,
+                    "text": "应用及案例",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1w1ssukp40",
+                            "created": 1557715471999,
+                            "text": "CDN",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu1w8alob800",
+                            "created": 1557715980932,
+                            "text": "秒杀",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu1w31hm92o0",
+                    "created": 1557715569275,
+                    "text": "服务无状态设计",
+                    "expandState": "collapse",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1w449ucz40",
+                            "created": 1557715653699,
+                            "text": "定义",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1w4dwq0ww0",
+                                    "created": 1557715674673,
+                                    "text": "冗余部署多个模块（进程）完全对等",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1w4rshk1k0",
+                                    "created": 1557715704892,
+                                    "text": "请求提交到冗余部署的任一模块，处理结果完全一样",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1w575dhwo0",
+                                    "created": 1557715738323,
+                                    "text": "模块不存储业务的上下文件信息",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1w5f31scw0",
+                                    "created": 1557715755597,
+                                    "text": "仅根据每次请求携带数据进行相应的业务逻辑处理",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu1w4a2n64g0",
+                            "created": 1557715666324,
+                            "text": "案例",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1w61fnilk0",
+                                    "created": 1557715804248,
+                                    "text": "用户session",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu1w64f2cew0",
+                                            "created": 1557715810743,
+                                            "text": "登陆方式",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1w69anfu00",
+                                            "created": 1557715821360,
+                                            "text": "分支主题",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1w6hxzbfk0",
+                                    "created": 1557715840185,
+                                    "text": "session怎么存放",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu1w6rm9srk0",
+                                            "created": 1557715861245,
+                                            "text": "Redis",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu1vwm5vw6g0",
+                    "created": 1557715065728,
+                    "text": "负载均衡",
+                    "expandState": "collapse",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1vwvc9llc0",
+                            "created": 1557715085705,
+                            "text": "负载均衡系统",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1vx2iaz7c0",
+                                    "created": 1557715101308,
+                                    "text": "硬件",
+                                    "expandState": "collapse",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu1vx5kzf140",
+                                            "created": 1557715108000,
+                                            "text": "F5",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1vx8h4i2g0",
+                                            "created": 1557715114297,
+                                            "text": "A10",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1vx9yx9680",
+                                            "created": 1557715117550,
+                                            "text": "Radware",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1vxdqxpio0",
+                                    "created": 1557715125774,
+                                    "text": "软件",
+                                    "expandState": "collapse",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu1vxhbwlzk0",
+                                            "created": 1557715133573,
+                                            "text": "LVS",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu1vxjupsi00",
+                                                    "created": 1557715139064,
+                                                    "text": "4层",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1vxqpbye00",
+                                            "created": 1557715153976,
+                                            "text": "Nginx",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu1vxtdh8u80",
+                                                    "created": 1557715159789,
+                                                    "text": "7层",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1vxx5hbw80",
+                                            "created": 1557715168013,
+                                            "text": "HAProxy",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu1vy0xn0280",
+                                                    "created": 1557715176246,
+                                                    "text": "4层",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1vy54ep0o0",
+                                            "created": 1557715185362,
+                                            "text": "Apache",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu1vy983vl40",
+                                                    "created": 1557715194293,
+                                                    "text": "7层",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1vyk4y5sw0",
+                                    "created": 1557715218047,
+                                    "text": "代理类型",
+                                    "expandState": "collapse",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu1vyrgxifk0",
+                                            "created": 1557715234009,
+                                            "text": "反向代理",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1vytxkxdk0",
+                                            "created": 1557715239369,
+                                            "text": "正向代理",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu1vyyun9zs0",
+                            "created": 1557715250075,
+                            "text": "负载均衡算法",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1vz416di80",
+                                    "created": 1557715261354,
+                                    "text": "Dubbo LoadBalance",
+                                    "expandState": "collapse",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu1vzbyfwnc0",
+                                            "created": 1557715278603,
+                                            "text": "Random",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu1vzhloby00",
+                                                    "created": 1557715290892,
+                                                    "text": "随机",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1vzmoa1wg0",
+                                            "created": 1557715301933,
+                                            "text": "RoundBobin",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu1vzw0l9ew0",
+                                                    "created": 1557715322269,
+                                                    "text": "轮循",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1w08v55wo0",
+                                            "created": 1557715350237,
+                                            "text": "ConsistentHash",
+                                            "expandState": "expand",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu1w0fj7n1c0",
+                                                    "created": 1557715364753,
+                                                    "text": "一致性Hash",
+                                                    "expandState": "expand",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu1w25nbqr40",
+                                                            "created": 1557715499963,
+                                                            "text": "TODO 什么是一致性Hash",
+                                                            "priority": 2,
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu1w0qozkjk0",
+                            "created": 1557715389047,
+                            "text": "故障恢复机制",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1w12fvws80",
+                                    "created": 1557715414618,
+                                    "text": "核心问题",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu1w7pdxeuw0",
+                    "created": 1557715934752,
+                    "text": "微服务",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1w7x58qu80",
+                            "created": 1557715951640,
+                            "text": "架构分类",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

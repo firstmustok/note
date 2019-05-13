@@ -1,0 +1,43 @@
+{
+    "root": {
+        "data": {
+            "id": "btwxjmw944g0",
+            "created": 1557211891025,
+            "text": "物联网",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bu1wv4pmueo0",
+                    "created": 1557717770486,
+                    "text": "网络协议",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1wvc99pvk0",
+                            "created": 1557717786911,
+                            "text": "MQTT",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu1wvfd31a00",
+                    "created": 1557717793672,
+                    "text": "安全",
+                    "layout": null
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

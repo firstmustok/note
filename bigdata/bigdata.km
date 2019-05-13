@@ -1,0 +1,112 @@
+{
+    "root": {
+        "data": {
+            "id": "btwxjmw944g0",
+            "created": 1557211891025,
+            "text": "大数据",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bu1wbpb3gxs0",
+                    "created": 1557716248036,
+                    "text": "存储与查询",
+                    "expandState": "collapse",
+                    "layout": null,
+                    "layout_mind_offset": {
+                        "x": -83,
+                        "y": 1
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1wbls4rbk0",
+                            "created": 1557716240359,
+                            "text": "Hadoop",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1wcs6zo080",
+                                    "created": 1557716332683,
+                                    "text": "Map/Reduce",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu1wbyb9qdk0",
+                    "created": 1557716267638,
+                    "text": "计算",
+                    "expandState": "collapse",
+                    "layout": null,
+                    "layout_mind_offset": {
+                        "x": 83,
+                        "y": 2
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1wc497cig0",
+                            "created": 1557716280574,
+                            "text": "实时",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1wc05rleg0",
+                                    "created": 1557716271659,
+                                    "text": "Flink",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu1wc9n1em00",
+                            "created": 1557716292294,
+                            "text": "离线",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1wcgudh5s0",
+                                    "created": 1557716307975,
+                                    "text": "HBase",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1wcloss3k0",
+                                    "created": 1557716318522,
+                                    "text": "Spark",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

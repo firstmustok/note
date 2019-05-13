@@ -1,0 +1,55 @@
+{
+    "root": {
+        "data": {
+            "id": "btwxjmw944g0",
+            "created": 1557211891025,
+            "text": "中间件",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bu1wtdveczs0",
+                    "created": 1557717633698,
+                    "text": "Kafka",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1xcvpbfy00",
+                            "created": 1557719161431,
+                            "text": "高性能",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu201ipuhug0",
+                            "created": 1557726734489,
+                            "text": "问题及方案",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu201p0u7w00",
+                                    "created": 1557726748214,
+                                    "text": "为什么kafka不实现主从模式？",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
