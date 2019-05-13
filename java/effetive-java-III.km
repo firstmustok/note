@@ -11,11 +11,8 @@
                     "id": "bu1u52nn4io0",
                     "created": 1557710086324,
                     "text": "程序设计",
-                    "layout_mind_offset": {
-                        "x": -52.75000031664979,
-                        "y": -5
-                    },
-                    "expandState": "expand"
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": [
                     {
@@ -23,7 +20,8 @@
                             "id": "bu1u5cik6y00",
                             "created": 1557710107785,
                             "text": "JAVA",
-                            "expandState": "expand"
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": [
                             {
@@ -31,14 +29,16 @@
                                     "id": "bu1zgqtiu0o0",
                                     "created": 1557725106478,
                                     "text": "基础知识",
-                                    "expandState": "expand"
+                                    "expandState": "expand",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "bu1zh56x1a00",
                                             "created": 1557725137763,
-                                            "text": "Lock vs synchronized"
+                                            "text": "Lock vs synchronized",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -46,14 +46,16 @@
                                         "data": {
                                             "id": "bu1zqs3tft40",
                                             "created": 1557725892919,
-                                            "text": "String"
+                                            "text": "String",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "bu1zqu7hd9c0",
                                                     "created": 1557725897494,
-                                                    "text": "为什么时final?"
+                                                    "text": "为什么时final?",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -61,7 +63,8 @@
                                                 "data": {
                                                     "id": "bu1zsmdr0q00",
                                                     "created": 1557726037187,
-                                                    "text": "StringBuffer vs StringBuilder"
+                                                    "text": "StringBuffer vs StringBuilder",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -71,7 +74,8 @@
                                         "data": {
                                             "id": "bu1zset5a3s0",
                                             "created": 1557726020704,
-                                            "text": "Unsafe"
+                                            "text": "Unsafe",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -79,7 +83,8 @@
                                         "data": {
                                             "id": "bu1zu2logcw0",
                                             "created": 1557726150859,
-                                            "text": "BIO vs NIO"
+                                            "text": "BIO vs NIO",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -87,21 +92,24 @@
                                         "data": {
                                             "id": "bu20slgueio0",
                                             "created": 1557728856307,
-                                            "text": "双亲模型"
+                                            "text": "双亲模型",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "bu20sq3oqu00",
                                                     "created": 1557728866396,
-                                                    "text": "问题"
+                                                    "text": "问题",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "bu20ssqeyww0",
                                                             "created": 1557728872123,
-                                                            "text": "Tomcat如何解决包冲突？"
+                                                            "text": "Tomcat如何解决包冲突？",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -116,14 +124,16 @@
                                     "id": "bu1vvndbv5s0",
                                     "created": 1557714989991,
                                     "text": "JVM",
-                                    "expandState": "expand"
+                                    "expandState": "expand",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "bu1wpra06xs0",
                                             "created": 1557717349422,
-                                            "text": "垃圾回收"
+                                            "text": "垃圾回收",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -131,7 +141,8 @@
                                         "data": {
                                             "id": "bu1zudio8cw0",
                                             "created": 1557726174622,
-                                            "text": "性能调优"
+                                            "text": "性能调优",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -142,7 +153,8 @@
                                     "id": "bu1u73nbp2g0",
                                     "created": 1557710245210,
                                     "text": "Java源代码",
-                                    "expandState": "expand"
+                                    "expandState": "expand",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
@@ -150,14 +162,16 @@
                                             "id": "bu1zfjf41c80",
                                             "created": 1557725012006,
                                             "text": "concurrent",
-                                            "expandState": "expand"
+                                            "expandState": "expand",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "bu1zfnbbmw00",
                                                     "created": 1557725020483,
-                                                    "text": "ConcurrentHashMap"
+                                                    "text": "ConcurrentHashMap",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -165,7 +179,8 @@
                                                 "data": {
                                                     "id": "bu1zpbzdsp40",
                                                     "created": 1557725779458,
-                                                    "text": "ThreadPoolExecutor"
+                                                    "text": "ThreadPoolExecutor",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -173,14 +188,16 @@
                                                 "data": {
                                                     "id": "bu1zn4psltk0",
                                                     "created": 1557725606912,
-                                                    "text": "AQS (AbstractQueuedSynchronnizer)"
+                                                    "text": "AQS (AbstractQueuedSynchronnizer)",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "bu1zo2xxeo00",
                                                             "created": 1557725681415,
-                                                            "text": "FairSync"
+                                                            "text": "FairSync",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -188,7 +205,8 @@
                                                         "data": {
                                                             "id": "bu1zqi7zdps0",
                                                             "created": 1557725871403,
-                                                            "text": "NonFairSync"
+                                                            "text": "NonFairSync",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -198,7 +216,8 @@
                                                 "data": {
                                                     "id": "bu1zoy6edk00",
                                                     "created": 1557725749407,
-                                                    "text": "Delayed"
+                                                    "text": "Delayed",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -206,14 +225,16 @@
                                                 "data": {
                                                     "id": "bu1zndlk2480",
                                                     "created": 1557725626247,
-                                                    "text": "CAS"
+                                                    "text": "CAS",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "bu1znnoh82o0",
                                                             "created": 1557725648192,
-                                                            "text": "定义及原理"
+                                                            "text": "定义及原理",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -221,7 +242,8 @@
                                                         "data": {
                                                             "id": "bu1znwplzq00",
                                                             "created": 1557725667851,
-                                                            "text": "SpinLock"
+                                                            "text": "SpinLock",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -230,14 +252,16 @@
                                                             "id": "bu1znjvvytc0",
                                                             "created": 1557725639933,
                                                             "text": "问题",
-                                                            "expandState": "expand"
+                                                            "expandState": "expand",
+                                                            "layout": null
                                                         },
                                                         "children": [
                                                             {
                                                                 "data": {
                                                                     "id": "bu1zngfmu2g0",
                                                                     "created": 1557725632419,
-                                                                    "text": "ABA"
+                                                                    "text": "ABA",
+                                                                    "layout": null
                                                                 },
                                                                 "children": []
                                                             }
@@ -252,14 +276,16 @@
                                             "id": "bu1zfwcfv6g0",
                                             "created": 1557725040141,
                                             "text": "HashMap",
-                                            "expandState": "collapse"
+                                            "expandState": "collapse",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "bu1zg6umvhs0",
                                                     "created": 1557725063009,
-                                                    "text": "1.7 vs 1.8"
+                                                    "text": "1.7 vs 1.8",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -272,7 +298,8 @@
                                     "id": "bu1zjzzgfbs0",
                                     "created": 1557725361520,
                                     "text": "框架",
-                                    "expandState": "expand"
+                                    "expandState": "expand",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
@@ -281,10 +308,7 @@
                                             "created": 1557710503244,
                                             "text": "Spring",
                                             "expandState": "collapse",
-                                            "layout_right_offset": {
-                                                "x": -3.7499999441206455,
-                                                "y": 0
-                                            }
+                                            "layout": null
                                         },
                                         "children": [
                                             {
@@ -292,14 +316,16 @@
                                                     "id": "bu1zln3fleo0",
                                                     "created": 1557725490191,
                                                     "text": "架构及分层",
-                                                    "expandState": "collapse"
+                                                    "expandState": "collapse",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "bu1zmmcos800",
                                                             "created": 1557725566938,
-                                                            "text": "AOP"
+                                                            "text": "AOP",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -307,7 +333,8 @@
                                                         "data": {
                                                             "id": "bu1zmul5k800",
                                                             "created": 1557725584864,
-                                                            "text": "IOC"
+                                                            "text": "IOC",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -318,14 +345,16 @@
                                                     "id": "bu1zm81o6yo0",
                                                     "created": 1557725535797,
                                                     "text": "技术及源码分析",
-                                                    "expandState": "collapse"
+                                                    "expandState": "collapse",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "bu1xd8fawfs0",
                                                             "created": 1557719189124,
-                                                            "text": "bean初始化流程"
+                                                            "text": "bean初始化流程",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -333,7 +362,8 @@
                                                         "data": {
                                                             "id": "bu1xdgfk99k0",
                                                             "created": 1557719206554,
-                                                            "text": "Bean循环依赖"
+                                                            "text": "Bean循环依赖",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -341,7 +371,8 @@
                                                         "data": {
                                                             "id": "bu0pk1qm44o0",
                                                             "created": 1557595594283,
-                                                            "text": "LocalVariableTableParameterNameDiscoverer"
+                                                            "text": "LocalVariableTableParameterNameDiscoverer",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -354,14 +385,16 @@
                                             "id": "bu1zkalxlp40",
                                             "created": 1557725384647,
                                             "text": "Dubbo",
-                                            "expandState": "collapse"
+                                            "expandState": "collapse",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "bu1zl71ua9c0",
                                                     "created": 1557725455266,
-                                                    "text": "架构及分层"
+                                                    "text": "架构及分层",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -370,20 +403,30 @@
                                                     "id": "bu1zkjar34w0",
                                                     "created": 1557725403562,
                                                     "text": "问题案例",
-                                                    "expandState": "expand"
+                                                    "expandState": "expand",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "bu1zkprrlu00",
                                                             "created": 1557725417652,
-                                                            "text": "注册中心挂了，是否还可以继续使用？"
+                                                            "text": "注册中心挂了，是否还可以继续使用？",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
                                                 ]
                                             }
                                         ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu24j13va3c0",
+                                            "created": 1557739391149,
+                                            "text": "Netty"
+                                        },
+                                        "children": []
                                     }
                                 ]
                             },
@@ -392,7 +435,8 @@
                                     "id": "bu1wdgqsu9k0",
                                     "created": 1557716386123,
                                     "text": "书籍",
-                                    "expandState": "expand"
+                                    "expandState": "expand",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
@@ -400,7 +444,8 @@
                                             "id": "bu1u5iq7l7s0",
                                             "created": 1557710121308,
                                             "text": "Effective Java",
-                                            "expandState": "expand"
+                                            "expandState": "expand",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
@@ -408,14 +453,16 @@
                                                     "id": "btwxjyf02uo0",
                                                     "created": 1557211916103,
                                                     "text": "对象创建销毁",
-                                                    "expandState": "collapse"
+                                                    "expandState": "collapse",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "btwxkpwo8q00",
                                                             "created": 1557211975945,
-                                                            "text": "1. Static factory method"
+                                                            "text": "1. Static factory method",
+                                                            "layout": null
                                                         },
                                                         "children": [
                                                             {
@@ -423,14 +470,16 @@
                                                                     "id": "btwzrvr7l3s0",
                                                                     "created": 1557218179444,
                                                                     "text": "Advantage",
-                                                                    "expandState": "collapse"
+                                                                    "expandState": "collapse",
+                                                                    "layout": null
                                                                 },
                                                                 "children": [
                                                                     {
                                                                         "data": {
                                                                             "id": "btwytw4pej40",
                                                                             "created": 1557215515880,
-                                                                            "text": "1. name, good to read"
+                                                                            "text": "1. name, good to read",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     },
@@ -438,7 +487,8 @@
                                                                         "data": {
                                                                             "id": "btwyu3dsyo80",
                                                                             "created": 1557215531666,
-                                                                            "text": "2. Can be cached, *Flyweight*"
+                                                                            "text": "2. Can be cached, *Flyweight*",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     },
@@ -446,7 +496,8 @@
                                                                         "data": {
                                                                             "id": "btwzordde080",
                                                                             "created": 1557217934808,
-                                                                            "text": "3. Can return subtype to hide the details"
+                                                                            "text": "3. Can return subtype to hide the details",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     },
@@ -454,7 +505,8 @@
                                                                         "data": {
                                                                             "id": "btwzp7awmd40",
                                                                             "created": 1557217969487,
-                                                                            "text": "4. The return object NO need to be exist. *JDBC*"
+                                                                            "text": "4. The return object NO need to be exist. *JDBC*",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     }
@@ -465,14 +517,16 @@
                                                                     "id": "btwzs8e3n740",
                                                                     "created": 1557218206950,
                                                                     "text": "implementation",
-                                                                    "expandState": "collapse"
+                                                                    "expandState": "collapse",
+                                                                    "layout": null
                                                                 },
                                                                 "children": [
                                                                     {
                                                                         "data": {
                                                                             "id": "btwzsyxgcn40",
                                                                             "created": 1557218264716,
-                                                                            "text": "from"
+                                                                            "text": "from",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     },
@@ -480,7 +534,8 @@
                                                                         "data": {
                                                                             "id": "btwzt4fzhco0",
                                                                             "created": 1557218276721,
-                                                                            "text": "of"
+                                                                            "text": "of",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     },
@@ -488,7 +543,8 @@
                                                                         "data": {
                                                                             "id": "btwzt5fzx5s0",
                                                                             "created": 1557218278898,
-                                                                            "text": "valueOf"
+                                                                            "text": "valueOf",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     },
@@ -496,7 +552,8 @@
                                                                         "data": {
                                                                             "id": "btwzt8rg46w0",
                                                                             "created": 1557218286121,
-                                                                            "text": "instance"
+                                                                            "text": "instance",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     },
@@ -504,7 +561,8 @@
                                                                         "data": {
                                                                             "id": "btwztafufio0",
                                                                             "created": 1557218289773,
-                                                                            "text": "create or newInstance"
+                                                                            "text": "create or newInstance",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     },
@@ -512,7 +570,8 @@
                                                                         "data": {
                                                                             "id": "btwztf8xfmo0",
                                                                             "created": 1557218300239,
-                                                                            "text": "getType"
+                                                                            "text": "getType",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     },
@@ -520,7 +579,8 @@
                                                                         "data": {
                                                                             "id": "btwztjbabew0",
                                                                             "created": 1557218309088,
-                                                                            "text": "newType"
+                                                                            "text": "newType",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     },
@@ -528,14 +588,16 @@
                                                                         "data": {
                                                                             "id": "btwztkz25fs0",
                                                                             "created": 1557218312703,
-                                                                            "text": "type"
+                                                                            "text": "type",
+                                                                            "layout": null
                                                                         },
                                                                         "children": [
                                                                             {
                                                                                 "data": {
                                                                                     "id": "btwztqge0g80",
                                                                                     "created": 1557218324635,
-                                                                                    "text": "List<Complaint>\tlitany\t=\tCollections.list(legacyLitany);"
+                                                                                    "text": "List<Complaint>\tlitany\t=\tCollections.list(legacyLitany);",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": []
                                                                             }
@@ -549,7 +611,8 @@
                                                         "data": {
                                                             "id": "btwxl1oxqv40",
                                                             "created": 1557212001599,
-                                                            "text": "2. Builder instead of many parameters constructor"
+                                                            "text": "2. Builder instead of many parameters constructor",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -557,7 +620,8 @@
                                                         "data": {
                                                             "id": "btwxmdsv9eg0",
                                                             "created": 1557212106322,
-                                                            "text": "3. Singleton"
+                                                            "text": "3. Singleton",
+                                                            "layout": null
                                                         },
                                                         "children": [
                                                             {
@@ -566,10 +630,7 @@
                                                                     "created": 1557215394191,
                                                                     "text": "Security",
                                                                     "expandState": "expand",
-                                                                    "layout_right_offset": {
-                                                                        "x": -1,
-                                                                        "y": -1
-                                                                    }
+                                                                    "layout": null
                                                                 },
                                                                 "children": [
                                                                     {
@@ -577,7 +638,8 @@
                                                                             "id": "btwynhhdqyg0",
                                                                             "created": 1557215013809,
                                                                             "text": "Serializable",
-                                                                            "expandState": "expand"
+                                                                            "expandState": "expand",
+                                                                            "layout": null
                                                                         },
                                                                         "children": [
                                                                             {
@@ -585,14 +647,16 @@
                                                                                     "id": "btwyq1srrts0",
                                                                                     "created": 1557215214761,
                                                                                     "text": "Singleton property",
-                                                                                    "expandState": "expand"
+                                                                                    "expandState": "expand",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": [
                                                                                     {
                                                                                         "data": {
                                                                                             "id": "btwyogrl83s0",
                                                                                             "created": 1557215090613,
-                                                                                            "text": "1. Mark all fields as *transient*"
+                                                                                            "text": "1. Mark all fields as *transient*",
+                                                                                            "layout": null
                                                                                         },
                                                                                         "children": []
                                                                                     },
@@ -600,7 +664,8 @@
                                                                                         "data": {
                                                                                             "id": "btwypexol1s0",
                                                                                             "created": 1557215164992,
-                                                                                            "text": "2. Provide *readResolve*"
+                                                                                            "text": "2. Provide *readResolve*",
+                                                                                            "layout": null
                                                                                         },
                                                                                         "children": []
                                                                                     }
@@ -611,7 +676,8 @@
                                                                                     "id": "btwyqljlk1s0",
                                                                                     "created": 1557215257742,
                                                                                     "text": "Enum Singleton",
-                                                                                    "font-weight": "bold"
+                                                                                    "font-weight": "bold",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": []
                                                                             }
@@ -622,14 +688,16 @@
                                                                             "id": "btwyn2a0ars0",
                                                                             "created": 1557214980711,
                                                                             "text": "Reflection",
-                                                                            "expandState": "expand"
+                                                                            "expandState": "expand",
+                                                                            "layout": null
                                                                         },
                                                                         "children": [
                                                                             {
                                                                                 "data": {
                                                                                     "id": "btwyn687vzk0",
                                                                                     "created": 1557214989310,
-                                                                                    "text": "throw exception in *private* constructor"
+                                                                                    "text": "throw exception in *private* constructor",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": []
                                                                             }
@@ -642,14 +710,16 @@
                                                                     "id": "btwzl8u7yb40",
                                                                     "created": 1557217659375,
                                                                     "text": "Disadvantage",
-                                                                    "expandState": "collapse"
+                                                                    "expandState": "collapse",
+                                                                    "layout": null
                                                                 },
                                                                 "children": [
                                                                     {
                                                                         "data": {
                                                                             "id": "btwzlypw75c0",
                                                                             "created": 1557217715710,
-                                                                            "text": "Flexibility"
+                                                                            "text": "Flexibility",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     },
@@ -657,7 +727,8 @@
                                                                         "data": {
                                                                             "id": "btwzmi5v3e00",
                                                                             "created": 1557217758035,
-                                                                            "text": "Testability"
+                                                                            "text": "Testability",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     }
@@ -677,7 +748,8 @@
                         "data": {
                             "id": "bu1u7rxi2lc0",
                             "created": 1557710298068,
-                            "text": "Golang"
+                            "text": "Golang",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -685,7 +757,8 @@
                         "data": {
                             "id": "bu1ua2m13j40",
                             "created": 1557710478048,
-                            "text": "C/C++"
+                            "text": "C/C++",
+                            "layout": null
                         },
                         "children": [
                             {
@@ -693,14 +766,16 @@
                                     "id": "bu1zikse8rk0",
                                     "created": 1557725250077,
                                     "text": "源码分析工程",
-                                    "expandState": "collapse"
+                                    "expandState": "collapse",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "bu1ziv7u2ls0",
                                             "created": 1557725272779,
-                                            "text": "Redis"
+                                            "text": "Redis",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -708,7 +783,8 @@
                                         "data": {
                                             "id": "bu1zjrexteg0",
                                             "created": 1557725342865,
-                                            "text": "sqlite"
+                                            "text": "sqlite",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -716,7 +792,8 @@
                                         "data": {
                                             "id": "bu1zix8xmy80",
                                             "created": 1557725277199,
-                                            "text": "Libuv"
+                                            "text": "Libuv",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -724,7 +801,8 @@
                                         "data": {
                                             "id": "bu1zj0mjwjk0",
                                             "created": 1557725284553,
-                                            "text": "linux"
+                                            "text": "linux",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -737,14 +815,16 @@
                             "id": "bu1zhycremo0",
                             "created": 1557725201243,
                             "text": "Shell",
-                            "expandState": "collapse"
+                            "expandState": "collapse",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "bu1zi0dfwdk0",
                                     "created": 1557725205637,
-                                    "text": "AWK"
+                                    "text": "AWK",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -752,7 +832,8 @@
                                 "data": {
                                     "id": "bu1zi2slj940",
                                     "created": 1557725210907,
-                                    "text": "Sed"
+                                    "text": "Sed",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -760,7 +841,8 @@
                                 "data": {
                                     "id": "bu1zi440yxc0",
                                     "created": 1557725213775,
-                                    "text": "Grep"
+                                    "text": "Grep",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -771,14 +853,16 @@
                             "id": "bu1ub0xd2a00",
                             "created": 1557710552743,
                             "text": "Javascript",
-                            "expandState": "collapse"
+                            "expandState": "collapse",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "bu1ub4r0rd40",
                                     "created": 1557710561067,
-                                    "text": "VUE"
+                                    "text": "VUE",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -786,7 +870,8 @@
                                 "data": {
                                     "id": "bu1ubhxr6eo0",
                                     "created": 1557710589772,
-                                    "text": "React"
+                                    "text": "React",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -794,7 +879,8 @@
                                 "data": {
                                     "id": "bu1ubshs2u80",
                                     "created": 1557710612751,
-                                    "text": "Angular"
+                                    "text": "Angular",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -804,14 +890,16 @@
                         "data": {
                             "id": "bu1ub90a0w00",
                             "created": 1557710570334,
-                            "text": "Dart"
+                            "text": "Dart",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "bu1ubclelu00",
                                     "created": 1557710578142,
-                                    "text": "Flutter"
+                                    "text": "Flutter",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -824,11 +912,8 @@
                     "id": "bu1u7uy24sw0",
                     "created": 1557710304632,
                     "text": "架构",
-                    "layout_mind_offset": {
-                        "x": -58.24999983236194,
-                        "y": 2.499999962747154
-                    },
-                    "expandState": "collapse"
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": [
                     {
@@ -836,14 +921,16 @@
                             "id": "bu20ctpmva80",
                             "created": 1557727620426,
                             "text": "理论及模式",
-                            "expandState": "expand"
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "bu20d0yk0qg0",
                                     "created": 1557727636203,
-                                    "text": "设计模式"
+                                    "text": "设计模式",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -852,14 +939,16 @@
                                     "id": "bu20d3zct5k0",
                                     "created": 1557727642782,
                                     "text": "设计模式六大原则",
-                                    "expandState": "collapse"
+                                    "expandState": "collapse",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "bu20e07okvk0",
                                             "created": 1557727712943,
-                                            "text": "开闭原则"
+                                            "text": "开闭原则",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -867,7 +956,8 @@
                                         "data": {
                                             "id": "bu20ekkee8w0",
                                             "created": 1557727757247,
-                                            "text": "单一职责原则"
+                                            "text": "单一职责原则",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -875,7 +965,8 @@
                                         "data": {
                                             "id": "bu20eoe1sbc0",
                                             "created": 1557727765570,
-                                            "text": "里氏替换原则"
+                                            "text": "里氏替换原则",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -883,7 +974,8 @@
                                         "data": {
                                             "id": "bu20et1xxr40",
                                             "created": 1557727775722,
-                                            "text": "依赖倒置原则"
+                                            "text": "依赖倒置原则",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -891,7 +983,8 @@
                                         "data": {
                                             "id": "bu20ewi8bfk0",
                                             "created": 1557727783237,
-                                            "text": "接口隔离原则"
+                                            "text": "接口隔离原则",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -899,7 +992,8 @@
                                         "data": {
                                             "id": "bu20f06wxk00",
                                             "created": 1557727791260,
-                                            "text": "迪米特法则"
+                                            "text": "迪米特法则",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -912,14 +1006,16 @@
                             "id": "bu1u7z9slns0",
                             "created": 1557710314049,
                             "text": "分布式",
-                            "expandState": "collapse"
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "bu1u8sh5pbs0",
                                     "created": 1557710377621,
-                                    "text": "一致性"
+                                    "text": "一致性",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -927,7 +1023,8 @@
                                 "data": {
                                     "id": "bu1u8z1xneg0",
                                     "created": 1557710391938,
-                                    "text": "幂等性"
+                                    "text": "幂等性",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -935,7 +1032,8 @@
                                 "data": {
                                     "id": "bu1vv6xc4740",
                                     "created": 1557714954196,
-                                    "text": "分布式锁"
+                                    "text": "分布式锁",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -943,9 +1041,63 @@
                                 "data": {
                                     "id": "bu1vvdqcfrc0",
                                     "created": 1557714969010,
-                                    "text": "分布式事务"
+                                    "text": "分布式事务",
+                                    "layout": null,
+                                    "expandState": "expand"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu24jwnegd40",
+                                            "created": 1557739459810,
+                                            "text": "原理",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu24jjkieyw0",
+                                                    "created": 1557739431338,
+                                                    "text": "2PC"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu24jor5g0w0",
+                                                    "created": 1557739442623,
+                                                    "text": "3PC"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu24k4c22rs0",
+                                            "created": 1557739476539,
+                                            "text": "实现"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu24kbkfxcg0",
+                                                    "created": 1557739492283,
+                                                    "text": "SOFA"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu24ke9xntc0",
+                                                    "created": 1557739498178,
+                                                    "text": "MySQL XA"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -953,14 +1105,16 @@
                         "data": {
                             "id": "bu1v3kkqzkw0",
                             "created": 1557712789713,
-                            "text": "高并发"
+                            "text": "高并发",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "bu1w3tgsjs00",
                                     "created": 1557715630176,
-                                    "text": "设计方法"
+                                    "text": "设计方法",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -970,14 +1124,16 @@
                         "data": {
                             "id": "bu1v3nnd1hs0",
                             "created": 1557712796401,
-                            "text": "高可用"
+                            "text": "高可用",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "bu1w8y9h5lc0",
                                     "created": 1557716032437,
-                                    "text": "CAP"
+                                    "text": "CAP",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -985,7 +1141,24 @@
                                 "data": {
                                     "id": "bu1w8zsnvoo0",
                                     "created": 1557716035774,
-                                    "text": "BASE"
+                                    "text": "BASE",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu24lv5msz40",
+                                    "created": 1557739613288,
+                                    "text": "限流"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu24ly7rfs80",
+                                    "created": 1557739619947,
+                                    "text": "降级"
                                 },
                                 "children": []
                             }
@@ -996,14 +1169,16 @@
                             "id": "bu1vwm5vw6g0",
                             "created": 1557715065728,
                             "text": "负载均衡",
-                            "expandState": "collapse"
+                            "expandState": "collapse",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "bu1vwvc9llc0",
                                     "created": 1557715085705,
-                                    "text": "负载均衡系统"
+                                    "text": "负载均衡系统",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
@@ -1011,14 +1186,16 @@
                                             "id": "bu1vx2iaz7c0",
                                             "created": 1557715101308,
                                             "text": "硬件",
-                                            "expandState": "collapse"
+                                            "expandState": "collapse",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "bu1vx5kzf140",
                                                     "created": 1557715108000,
-                                                    "text": "F5"
+                                                    "text": "F5",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -1026,7 +1203,8 @@
                                                 "data": {
                                                     "id": "bu1vx8h4i2g0",
                                                     "created": 1557715114297,
-                                                    "text": "A10"
+                                                    "text": "A10",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -1034,7 +1212,8 @@
                                                 "data": {
                                                     "id": "bu1vx9yx9680",
                                                     "created": 1557715117550,
-                                                    "text": "Radware"
+                                                    "text": "Radware",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -1045,21 +1224,24 @@
                                             "id": "bu1vxdqxpio0",
                                             "created": 1557715125774,
                                             "text": "软件",
-                                            "expandState": "collapse"
+                                            "expandState": "collapse",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "bu1vxhbwlzk0",
                                                     "created": 1557715133573,
-                                                    "text": "LVS"
+                                                    "text": "LVS",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "bu1vxjupsi00",
                                                             "created": 1557715139064,
-                                                            "text": "4层"
+                                                            "text": "4层",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -1069,14 +1251,16 @@
                                                 "data": {
                                                     "id": "bu1vxqpbye00",
                                                     "created": 1557715153976,
-                                                    "text": "Nginx"
+                                                    "text": "Nginx",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "bu1vxtdh8u80",
                                                             "created": 1557715159789,
-                                                            "text": "7层"
+                                                            "text": "7层",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -1086,7 +1270,8 @@
                                                 "data": {
                                                     "id": "bu1vxx5hbw80",
                                                     "created": 1557715168013,
-                                                    "text": "HAProxy"
+                                                    "text": "HAProxy",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
@@ -1094,10 +1279,7 @@
                                                             "id": "bu1vy0xn0280",
                                                             "created": 1557715176246,
                                                             "text": "4层",
-                                                            "layout_right_offset": {
-                                                                "x": -15,
-                                                                "y": -1
-                                                            }
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -1107,14 +1289,16 @@
                                                 "data": {
                                                     "id": "bu1vy54ep0o0",
                                                     "created": 1557715185362,
-                                                    "text": "Apache"
+                                                    "text": "Apache",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "bu1vy983vl40",
                                                             "created": 1557715194293,
-                                                            "text": "7层"
+                                                            "text": "7层",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -1127,14 +1311,16 @@
                                             "id": "bu1vyk4y5sw0",
                                             "created": 1557715218047,
                                             "text": "代理类型",
-                                            "expandState": "collapse"
+                                            "expandState": "collapse",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "bu1vyrgxifk0",
                                                     "created": 1557715234009,
-                                                    "text": "反向代理"
+                                                    "text": "反向代理",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -1142,7 +1328,8 @@
                                                 "data": {
                                                     "id": "bu1vytxkxdk0",
                                                     "created": 1557715239369,
-                                                    "text": "正向代理"
+                                                    "text": "正向代理",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -1155,7 +1342,8 @@
                                     "id": "bu1vyyun9zs0",
                                     "created": 1557715250075,
                                     "text": "负载均衡算法",
-                                    "expandState": "expand"
+                                    "expandState": "expand",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
@@ -1163,21 +1351,24 @@
                                             "id": "bu1vz416di80",
                                             "created": 1557715261354,
                                             "text": "Dubbo LoadBalance",
-                                            "expandState": "collapse"
+                                            "expandState": "collapse",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "bu1vzbyfwnc0",
                                                     "created": 1557715278603,
-                                                    "text": "Random"
+                                                    "text": "Random",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "bu1vzhloby00",
                                                             "created": 1557715290892,
-                                                            "text": "随机"
+                                                            "text": "随机",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -1187,14 +1378,16 @@
                                                 "data": {
                                                     "id": "bu1vzmoa1wg0",
                                                     "created": 1557715301933,
-                                                    "text": "RoundBobin"
+                                                    "text": "RoundBobin",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "bu1vzw0l9ew0",
                                                             "created": 1557715322269,
-                                                            "text": "轮循"
+                                                            "text": "轮循",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -1205,7 +1398,8 @@
                                                     "id": "bu1w08v55wo0",
                                                     "created": 1557715350237,
                                                     "text": "ConsistentHash",
-                                                    "expandState": "expand"
+                                                    "expandState": "expand",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
@@ -1213,11 +1407,8 @@
                                                             "id": "bu1w0fj7n1c0",
                                                             "created": 1557715364753,
                                                             "text": "一致性Hash",
-                                                            "layout_right_offset": {
-                                                                "x": -26,
-                                                                "y": 0
-                                                            },
-                                                            "expandState": "expand"
+                                                            "expandState": "expand",
+                                                            "layout": null
                                                         },
                                                         "children": [
                                                             {
@@ -1225,7 +1416,8 @@
                                                                     "id": "bu1w25nbqr40",
                                                                     "created": 1557715499963,
                                                                     "text": "TODO 什么是一致性Hash",
-                                                                    "priority": 2
+                                                                    "priority": 2,
+                                                                    "layout": null
                                                                 },
                                                                 "children": []
                                                             }
@@ -1241,14 +1433,16 @@
                                 "data": {
                                     "id": "bu1w0qozkjk0",
                                     "created": 1557715389047,
-                                    "text": "故障恢复机制"
+                                    "text": "故障恢复机制",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "bu1w12fvws80",
                                             "created": 1557715414618,
-                                            "text": "核心问题"
+                                            "text": "核心问题",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -1261,21 +1455,24 @@
                             "id": "bu1w31hm92o0",
                             "created": 1557715569275,
                             "text": "服务无状态设计",
-                            "expandState": "collapse"
+                            "expandState": "collapse",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "bu1w449ucz40",
                                     "created": 1557715653699,
-                                    "text": "定义"
+                                    "text": "定义",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "bu1w4dwq0ww0",
                                             "created": 1557715674673,
-                                            "text": "冗余部署多个模块（进程）完全对等"
+                                            "text": "冗余部署多个模块（进程）完全对等",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1283,7 +1480,8 @@
                                         "data": {
                                             "id": "bu1w4rshk1k0",
                                             "created": 1557715704892,
-                                            "text": "请求提交到冗余部署的任一模块，处理结果完全一样"
+                                            "text": "请求提交到冗余部署的任一模块，处理结果完全一样",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1291,7 +1489,8 @@
                                         "data": {
                                             "id": "bu1w575dhwo0",
                                             "created": 1557715738323,
-                                            "text": "模块不存储业务的上下文件信息"
+                                            "text": "模块不存储业务的上下文件信息",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1299,7 +1498,8 @@
                                         "data": {
                                             "id": "bu1w5f31scw0",
                                             "created": 1557715755597,
-                                            "text": "仅根据每次请求携带数据进行相应的业务逻辑处理"
+                                            "text": "仅根据每次请求携带数据进行相应的业务逻辑处理",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -1309,21 +1509,24 @@
                                 "data": {
                                     "id": "bu1w4a2n64g0",
                                     "created": 1557715666324,
-                                    "text": "案例"
+                                    "text": "案例",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "bu1w61fnilk0",
                                             "created": 1557715804248,
-                                            "text": "用户session"
+                                            "text": "用户session",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "bu1w64f2cew0",
                                                     "created": 1557715810743,
-                                                    "text": "登陆方式"
+                                                    "text": "登陆方式",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -1331,7 +1534,8 @@
                                                 "data": {
                                                     "id": "bu1w69anfu00",
                                                     "created": 1557715821360,
-                                                    "text": "分支主题"
+                                                    "text": "分支主题",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -1341,14 +1545,16 @@
                                         "data": {
                                             "id": "bu1w6hxzbfk0",
                                             "created": 1557715840185,
-                                            "text": "session怎么存放"
+                                            "text": "session怎么存放",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "bu1w6rm9srk0",
                                                     "created": 1557715861245,
-                                                    "text": "Redis"
+                                                    "text": "Redis",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -1362,14 +1568,16 @@
                         "data": {
                             "id": "bu1w7pdxeuw0",
                             "created": 1557715934752,
-                            "text": "微服务"
+                            "text": "微服务",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "bu1w7x58qu80",
                                     "created": 1557715951640,
-                                    "text": "架构分类"
+                                    "text": "架构分类",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -1379,14 +1587,16 @@
                         "data": {
                             "id": "bu1w1lwpywo0",
                             "created": 1557715456995,
-                            "text": "应用及案例"
+                            "text": "应用及案例",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "bu1w1ssukp40",
                                     "created": 1557715471999,
-                                    "text": "CDN"
+                                    "text": "CDN",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -1394,7 +1604,8 @@
                                 "data": {
                                     "id": "bu1w8alob800",
                                     "created": 1557715980932,
-                                    "text": "秒杀"
+                                    "text": "秒杀",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -1407,11 +1618,8 @@
                     "id": "bu1u86t7pvc0",
                     "created": 1557710330461,
                     "text": "数据库",
-                    "layout_mind_offset": {
-                        "x": -62.74999994412053,
-                        "y": 19.749999497085753
-                    },
-                    "expandState": "collapse"
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": [
                     {
@@ -1419,14 +1627,16 @@
                             "id": "bu1wjueevqo0",
                             "created": 1557716886034,
                             "text": "关系型数据库",
-                            "expandState": "expand"
+                            "expandState": "collapse",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "bu1wjzrmz6o0",
                                     "created": 1557716897718,
-                                    "text": "数据库规范"
+                                    "text": "数据库规范",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -1435,14 +1645,16 @@
                                     "id": "bu1winm2kps0",
                                     "created": 1557716792896,
                                     "text": "数据库设计范式",
-                                    "expandState": "collapse"
+                                    "expandState": "collapse",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "bu1wncpqb5s0",
                                             "created": 1557717160993,
-                                            "text": "第一范式"
+                                            "text": "第一范式",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1450,7 +1662,8 @@
                                         "data": {
                                             "id": "bu1wncpqb5s0",
                                             "created": 1557717160993,
-                                            "text": "第二范式"
+                                            "text": "第二范式",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1458,7 +1671,8 @@
                                         "data": {
                                             "id": "bu1wncpqb5s0",
                                             "created": 1557717160993,
-                                            "text": "第三范式"
+                                            "text": "第三范式",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -1468,7 +1682,8 @@
                                 "data": {
                                     "id": "bu1wicbed000",
                                     "created": 1557716768306,
-                                    "text": "SQL优化"
+                                    "text": "SQL优化",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -1477,7 +1692,8 @@
                                     "id": "bu1wgq3s9eg0",
                                     "created": 1557716641592,
                                     "text": " 高并发方案",
-                                    "expandState": "expand"
+                                    "expandState": "expand",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
@@ -1485,14 +1701,16 @@
                                             "id": "bu1wgaqsdyw0",
                                             "created": 1557716608154,
                                             "text": "分库",
-                                            "expandState": "collapse"
+                                            "expandState": "collapse",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "bu1wh24o4q80",
                                                     "created": 1557716667767,
-                                                    "text": "定义"
+                                                    "text": "定义",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -1500,7 +1718,8 @@
                                                 "data": {
                                                     "id": "bu1whby3xug0",
                                                     "created": 1557716689138,
-                                                    "text": "方案"
+                                                    "text": "方案",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -1509,7 +1728,8 @@
                                                     "id": "bu1wgg3vexs0",
                                                     "created": 1557716619829,
                                                     "text": "优点",
-                                                    "expandState": "expand"
+                                                    "expandState": "expand",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -1520,14 +1740,16 @@
                                             "id": "bu1wgaqsdyw0",
                                             "created": 1557716608154,
                                             "text": "分表",
-                                            "expandState": "collapse"
+                                            "expandState": "collapse",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "bu1wh24o4q80",
                                                     "created": 1557716667767,
-                                                    "text": "定义"
+                                                    "text": "定义",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -1535,14 +1757,16 @@
                                                 "data": {
                                                     "id": "bu1whby3xug0",
                                                     "created": 1557716689138,
-                                                    "text": "方案"
+                                                    "text": "方案",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "bu1whon6g940",
                                                             "created": 1557716716775,
-                                                            "text": "水平分表"
+                                                            "text": "水平分表",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -1550,7 +1774,8 @@
                                                         "data": {
                                                             "id": "bu1whry5r4o0",
                                                             "created": 1557716723969,
-                                                            "text": "垂直分表"
+                                                            "text": "垂直分表",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -1561,7 +1786,8 @@
                                                     "id": "bu1wgg3vexs0",
                                                     "created": 1557716619829,
                                                     "text": "优点",
-                                                    "expandState": "expand"
+                                                    "expandState": "expand",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -1571,7 +1797,8 @@
                                         "data": {
                                             "id": "bu20ihgwc0o0",
                                             "created": 1557728063962,
-                                            "text": "主从"
+                                            "text": "主从",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1579,7 +1806,8 @@
                                         "data": {
                                             "id": "bu20ijjwty80",
                                             "created": 1557728068497,
-                                            "text": "主主"
+                                            "text": "主主",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -1590,14 +1818,16 @@
                                     "id": "bu20jbxcmcg0",
                                     "created": 1557728130260,
                                     "text": "中间件",
-                                    "expandState": "collapse"
+                                    "expandState": "collapse",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "bu20jej0l880",
                                             "created": 1557728135924,
-                                            "text": "MyCat"
+                                            "text": "MyCat",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1605,7 +1835,8 @@
                                         "data": {
                                             "id": "bu20jg627g80",
                                             "created": 1557728139494,
-                                            "text": "KingShard"
+                                            "text": "KingShard",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -1616,7 +1847,8 @@
                                     "id": "bu1wkc97wdk0",
                                     "created": 1557716924902,
                                     "text": "数据库类型",
-                                    "expandState": "expand"
+                                    "expandState": "expand",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
@@ -1624,7 +1856,8 @@
                                             "id": "bu1u8h3d2l40",
                                             "created": 1557710352842,
                                             "text": "MySQL",
-                                            "expandState": "expand"
+                                            "expandState": "expand",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
@@ -1632,14 +1865,16 @@
                                                     "id": "bu20iue3ot40",
                                                     "created": 1557728092091,
                                                     "text": "数据库引擎",
-                                                    "expandState": "expand"
+                                                    "expandState": "expand",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "bu1wlanbxk00",
                                                             "created": 1557716999766,
-                                                            "text": "InnoDB"
+                                                            "text": "InnoDB",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -1647,7 +1882,8 @@
                                                         "data": {
                                                             "id": "bu1wlewewhc0",
                                                             "created": 1557717009022,
-                                                            "text": "MyIASM"
+                                                            "text": "MyIASM",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -1657,7 +1893,8 @@
                                                 "data": {
                                                     "id": "bu20j1vucww0",
                                                     "created": 1557728108401,
-                                                    "text": "数据库事务"
+                                                    "text": "数据库事务",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -1665,7 +1902,8 @@
                                                 "data": {
                                                     "id": "bu20j7cetn40",
                                                     "created": 1557728120287,
-                                                    "text": "锁"
+                                                    "text": "锁",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -1673,7 +1911,8 @@
                                                 "data": {
                                                     "id": "bu20kysmu8g0",
                                                     "created": 1557728258405,
-                                                    "text": "数据库优化"
+                                                    "text": "数据库优化",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -1683,7 +1922,8 @@
                                         "data": {
                                             "id": "bu1wkplqq740",
                                             "created": 1557716953958,
-                                            "text": "Postgres"
+                                            "text": "Postgres",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -1696,7 +1936,8 @@
                             "id": "bu1wa150jog0",
                             "created": 1557716117062,
                             "text": "NoSQL",
-                            "expandState": "expand"
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": [
                             {
@@ -1704,7 +1945,8 @@
                                     "id": "bu1u8nohw200",
                                     "created": 1557710367181,
                                     "text": "Redis",
-                                    "expandState": "expand"
+                                    "expandState": "collapse",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
@@ -1712,7 +1954,8 @@
                                             "id": "bu1wag1idi80",
                                             "created": 1557716149502,
                                             "text": "基础知识",
-                                            "expandState": "expand"
+                                            "expandState": "collapse",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
@@ -1720,14 +1963,16 @@
                                                     "id": "bu209n7wguw0",
                                                     "created": 1557727371201,
                                                     "text": "定义",
-                                                    "expandState": "collapse"
+                                                    "expandState": "collapse",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "bu20ak7ije80",
                                                             "created": 1557727443011,
-                                                            "text": "REmote DIctionary Server(Redis)"
+                                                            "text": "REmote DIctionary Server(Redis)",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -1735,7 +1980,8 @@
                                                         "data": {
                                                             "id": "bu20aolnv0w0",
                                                             "created": 1557727452574,
-                                                            "text": "KV存储"
+                                                            "text": "KV存储",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -1743,7 +1989,8 @@
                                                         "data": {
                                                             "id": "bu20at7st2o0",
                                                             "created": 1557727462620,
-                                                            "text": "单线程"
+                                                            "text": "单线程",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -1751,7 +1998,8 @@
                                                         "data": {
                                                             "id": "bu20b27780g0",
                                                             "created": 1557727482174,
-                                                            "text": "高性能"
+                                                            "text": "高性能",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -1759,7 +2007,8 @@
                                                         "data": {
                                                             "id": "bu20bkoqeqw0",
                                                             "created": 1557727522417,
-                                                            "text": "可基于内存亦可持久化的日志型"
+                                                            "text": "可基于内存亦可持久化的日志型",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -1769,7 +2018,8 @@
                                                 "data": {
                                                     "id": "bu1zw80jrrk0",
                                                     "created": 1557726319370,
-                                                    "text": "架构"
+                                                    "text": "架构",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -1778,14 +2028,16 @@
                                                     "id": "bu1walepmmo0",
                                                     "created": 1557716161184,
                                                     "text": "数据类型",
-                                                    "expandState": "collapse"
+                                                    "expandState": "collapse",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "bu1zv5rcx8w0",
                                                             "created": 1557726236097,
-                                                            "text": "STRING"
+                                                            "text": "STRING",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -1794,14 +2046,16 @@
                                                             "id": "bu1zvbp98t40",
                                                             "created": 1557726249031,
                                                             "text": "LIST",
-                                                            "expandState": "expand"
+                                                            "expandState": "expand",
+                                                            "layout": null
                                                         },
                                                         "children": [
                                                             {
                                                                 "data": {
                                                                     "id": "bu1waqjqvj40",
                                                                     "created": 1557716172372,
-                                                                    "text": "跳表"
+                                                                    "text": "跳表",
+                                                                    "layout": null
                                                                 },
                                                                 "children": []
                                                             }
@@ -1811,7 +2065,8 @@
                                                         "data": {
                                                             "id": "bu1zvd3l5ag0",
                                                             "created": 1557726252074,
-                                                            "text": "SET"
+                                                            "text": "SET",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -1819,7 +2074,8 @@
                                                         "data": {
                                                             "id": "bu1zveelvhs0",
                                                             "created": 1557726254917,
-                                                            "text": "HASH"
+                                                            "text": "HASH",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -1827,7 +2083,8 @@
                                                         "data": {
                                                             "id": "bu1zviadbgg0",
                                                             "created": 1557726263368,
-                                                            "text": "ZSET"
+                                                            "text": "ZSET",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -1837,7 +2094,8 @@
                                                 "data": {
                                                     "id": "bu1zw1wqqa80",
                                                     "created": 1557726306080,
-                                                    "text": "通信协议"
+                                                    "text": "通信协议",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -1845,7 +2103,8 @@
                                                 "data": {
                                                     "id": "bu1zwkhu60g0",
                                                     "created": 1557726346537,
-                                                    "text": "事务"
+                                                    "text": "事务",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -1854,7 +2113,8 @@
                                                     "id": "bu1zws3be740",
                                                     "created": 1557726363073,
                                                     "text": "持久化",
-                                                    "expandState": "expand"
+                                                    "expandState": "expand",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
@@ -1862,7 +2122,8 @@
                                                             "id": "bu1zxuqzy2w0",
                                                             "created": 1557726447223,
                                                             "text": "快照(RDB Snapshot)",
-                                                            "expandState": "collapse"
+                                                            "expandState": "collapse",
+                                                            "layout": null
                                                         },
                                                         "children": [
                                                             {
@@ -1870,14 +2131,16 @@
                                                                     "id": "bu202u541so0",
                                                                     "created": 1557726837721,
                                                                     "text": "设置",
-                                                                    "expandState": "collapse"
+                                                                    "expandState": "collapse",
+                                                                    "layout": null
                                                                 },
                                                                 "children": [
                                                                     {
                                                                         "data": {
                                                                             "id": "bu203iuh7a80",
                                                                             "created": 1557726891497,
-                                                                            "text": "N秒内至少M个改动"
+                                                                            "text": "N秒内至少M个改动",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     },
@@ -1885,7 +2148,8 @@
                                                                         "data": {
                                                                             "id": "bu203weqm080",
                                                                             "created": 1557726921020,
-                                                                            "text": "BGSAVE or SAVE"
+                                                                            "text": "BGSAVE or SAVE",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     }
@@ -1896,14 +2160,16 @@
                                                                     "id": "bu1zymzrjko0",
                                                                     "created": 1557726508703,
                                                                     "text": "原理及实现",
-                                                                    "expandState": "collapse"
+                                                                    "expandState": "collapse",
+                                                                    "layout": null
                                                                 },
                                                                 "children": [
                                                                     {
                                                                         "data": {
                                                                             "id": "bu1zyrm2h4o0",
                                                                             "created": 1557726518759,
-                                                                            "text": "创建子进程"
+                                                                            "text": "创建子进程",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     },
@@ -1912,14 +2178,16 @@
                                                                             "id": "bu1zyyg9xb40",
                                                                             "created": 1557726533646,
                                                                             "text": "子进程将数据写到*临时*文件 (默认dump.rdb)",
-                                                                            "expandState": "collapse"
+                                                                            "expandState": "collapse",
+                                                                            "layout": null
                                                                         },
                                                                         "children": [
                                                                             {
                                                                                 "data": {
                                                                                     "id": "bu207kzt66o0",
                                                                                     "created": 1557727209630,
-                                                                                    "text": "TODO 如何确定快照？事务中怎么办？"
+                                                                                    "text": "TODO 如何确定快照？事务中怎么办？",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": []
                                                                             }
@@ -1930,14 +2198,16 @@
                                                                             "id": "bu1zzmj4gmo0",
                                                                             "created": 1557726586061,
                                                                             "text": "完成写入，Redis用新快照替换原来的快照，并删除旧快照文件。",
-                                                                            "expandState": "collapse"
+                                                                            "expandState": "collapse",
+                                                                            "layout": null
                                                                         },
                                                                         "children": [
                                                                             {
                                                                                 "data": {
                                                                                     "id": "bu20117oj7c0",
                                                                                     "created": 1557726696385,
-                                                                                    "text": "TODO 如何替换？"
+                                                                                    "text": "TODO 如何替换？",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": []
                                                                             }
@@ -1950,7 +2220,8 @@
                                                                     "id": "bu204jaav940",
                                                                     "created": 1557726970818,
                                                                     "text": "优缺点",
-                                                                    "expandState": "collapse"
+                                                                    "expandState": "collapse",
+                                                                    "layout": null
                                                                 },
                                                                 "children": [
                                                                     {
@@ -1958,14 +2229,16 @@
                                                                             "id": "bu205mqz5wg0",
                                                                             "created": 1557727056721,
                                                                             "text": "优点",
-                                                                            "expandState": "collapse"
+                                                                            "expandState": "collapse",
+                                                                            "layout": null
                                                                         },
                                                                         "children": [
                                                                             {
                                                                                 "data": {
                                                                                     "id": "bu204o4z9zs0",
                                                                                     "created": 1557726981380,
-                                                                                    "text": "保存某个时间点数据，适合备份"
+                                                                                    "text": "保存某个时间点数据，适合备份",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": []
                                                                             },
@@ -1974,7 +2247,8 @@
                                                                                     "id": "bu2054r0vc00",
                                                                                     "created": 1557727017542,
                                                                                     "text": "适合灾备恢复",
-                                                                                    "expandState": "expand"
+                                                                                    "expandState": "expand",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": []
                                                                             },
@@ -1982,7 +2256,8 @@
                                                                                 "data": {
                                                                                     "id": "bu206fppl2o0",
                                                                                     "created": 1557727119771,
-                                                                                    "text": "独立进程，最大化性能"
+                                                                                    "text": "独立进程，最大化性能",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": []
                                                                             },
@@ -1990,7 +2265,8 @@
                                                                                 "data": {
                                                                                     "id": "bu206tynd540",
                                                                                     "created": 1557727150786,
-                                                                                    "text": "恢复大数据时，速度较快"
+                                                                                    "text": "恢复大数据时，速度较快",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": []
                                                                             }
@@ -2000,14 +2276,16 @@
                                                                         "data": {
                                                                             "id": "bu20699jcf40",
                                                                             "created": 1557727105732,
-                                                                            "text": "缺点"
+                                                                            "text": "缺点",
+                                                                            "layout": null
                                                                         },
                                                                         "children": [
                                                                             {
                                                                                 "data": {
                                                                                     "id": "bu207bb5xy80",
                                                                                     "created": 1557727188549,
-                                                                                    "text": "意外停机，丢失数据较多"
+                                                                                    "text": "意外停机，丢失数据较多",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": []
                                                                             },
@@ -2016,14 +2294,16 @@
                                                                                     "id": "bu208hk3vxc0",
                                                                                     "created": 1557727280514,
                                                                                     "text": "数据集大时，fork子进程耗时",
-                                                                                    "expandState": "collapse"
+                                                                                    "expandState": "collapse",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": [
                                                                                     {
                                                                                         "data": {
                                                                                             "id": "bu2097xzg540",
                                                                                             "created": 1557727337950,
-                                                                                            "text": "TODO fork为什么会耗时？"
+                                                                                            "text": "TODO fork为什么会耗时？",
+                                                                                            "layout": null
                                                                                         },
                                                                                         "children": []
                                                                                     }
@@ -2040,7 +2320,8 @@
                                                             "id": "bu1zy6cpggw0",
                                                             "created": 1557726472480,
                                                             "text": "AOF（Append Of File)",
-                                                            "expandState": "collapse"
+                                                            "expandState": "collapse",
+                                                            "layout": null
                                                         },
                                                         "children": [
                                                             {
@@ -2048,14 +2329,16 @@
                                                                     "id": "bu1zymzrjko0",
                                                                     "created": 1557726508703,
                                                                     "text": "原理及实现",
-                                                                    "expandState": "expand"
+                                                                    "expandState": "expand",
+                                                                    "layout": null
                                                                 },
                                                                 "children": [
                                                                     {
                                                                         "data": {
                                                                             "id": "bu1zyrm2h4o0",
                                                                             "created": 1557726518759,
-                                                                            "text": "创建子进程"
+                                                                            "text": "创建子进程",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     },
@@ -2064,14 +2347,16 @@
                                                                             "id": "bu1zyyg9xb40",
                                                                             "created": 1557726533646,
                                                                             "text": "子进程将数据写到*临时*文件 (默认dump.rdb)",
-                                                                            "expandState": "collapse"
+                                                                            "expandState": "collapse",
+                                                                            "layout": null
                                                                         },
                                                                         "children": [
                                                                             {
                                                                                 "data": {
                                                                                     "id": "bu207kzt66o0",
                                                                                     "created": 1557727209630,
-                                                                                    "text": "TODO 如何确定快照？事务中怎么办？"
+                                                                                    "text": "TODO 如何确定快照？事务中怎么办？",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": []
                                                                             }
@@ -2082,14 +2367,16 @@
                                                                             "id": "bu1zzmj4gmo0",
                                                                             "created": 1557726586061,
                                                                             "text": "完成写入，Redis用新快照替换原来的快照，并删除旧快照文件。",
-                                                                            "expandState": "collapse"
+                                                                            "expandState": "collapse",
+                                                                            "layout": null
                                                                         },
                                                                         "children": [
                                                                             {
                                                                                 "data": {
                                                                                     "id": "bu20117oj7c0",
                                                                                     "created": 1557726696385,
-                                                                                    "text": "TODO 如何替换？"
+                                                                                    "text": "TODO 如何替换？",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": []
                                                                             }
@@ -2102,7 +2389,8 @@
                                                                     "id": "bu204jaav940",
                                                                     "created": 1557726970818,
                                                                     "text": "优缺点",
-                                                                    "expandState": "expand"
+                                                                    "expandState": "expand",
+                                                                    "layout": null
                                                                 },
                                                                 "children": [
                                                                     {
@@ -2110,14 +2398,16 @@
                                                                             "id": "bu205mqz5wg0",
                                                                             "created": 1557727056721,
                                                                             "text": "优点",
-                                                                            "expandState": "expand"
+                                                                            "expandState": "expand",
+                                                                            "layout": null
                                                                         },
                                                                         "children": [
                                                                             {
                                                                                 "data": {
                                                                                     "id": "bu204o4z9zs0",
                                                                                     "created": 1557726981380,
-                                                                                    "text": "保存某个时间点数据，适合备份"
+                                                                                    "text": "保存某个时间点数据，适合备份",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": []
                                                                             },
@@ -2126,7 +2416,8 @@
                                                                                     "id": "bu2054r0vc00",
                                                                                     "created": 1557727017542,
                                                                                     "text": "适合灾备恢复",
-                                                                                    "expandState": "expand"
+                                                                                    "expandState": "expand",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": []
                                                                             },
@@ -2134,7 +2425,8 @@
                                                                                 "data": {
                                                                                     "id": "bu206fppl2o0",
                                                                                     "created": 1557727119771,
-                                                                                    "text": "独立进程，最大化性能"
+                                                                                    "text": "独立进程，最大化性能",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": []
                                                                             },
@@ -2142,7 +2434,8 @@
                                                                                 "data": {
                                                                                     "id": "bu206tynd540",
                                                                                     "created": 1557727150786,
-                                                                                    "text": "恢复大数据时，速度较快"
+                                                                                    "text": "恢复大数据时，速度较快",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": []
                                                                             }
@@ -2152,14 +2445,16 @@
                                                                         "data": {
                                                                             "id": "bu20699jcf40",
                                                                             "created": 1557727105732,
-                                                                            "text": "缺点"
+                                                                            "text": "缺点",
+                                                                            "layout": null
                                                                         },
                                                                         "children": [
                                                                             {
                                                                                 "data": {
                                                                                     "id": "bu207bb5xy80",
                                                                                     "created": 1557727188549,
-                                                                                    "text": "意外停机，丢失数据较多"
+                                                                                    "text": "意外停机，丢失数据较多",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": []
                                                                             },
@@ -2168,14 +2463,16 @@
                                                                                     "id": "bu208hk3vxc0",
                                                                                     "created": 1557727280514,
                                                                                     "text": "数据集大时，fork子进程耗时",
-                                                                                    "expandState": "collapse"
+                                                                                    "expandState": "collapse",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": [
                                                                                     {
                                                                                         "data": {
                                                                                             "id": "bu2097xzg540",
                                                                                             "created": 1557727337950,
-                                                                                            "text": "TODO fork为什么会耗时？"
+                                                                                            "text": "TODO fork为什么会耗时？",
+                                                                                            "layout": null
                                                                                         },
                                                                                         "children": []
                                                                                     }
@@ -2195,7 +2492,8 @@
                                         "data": {
                                             "id": "bu1w9fq035c0",
                                             "created": 1557716070442,
-                                            "text": "分布式方案"
+                                            "text": "分布式方案",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -2204,14 +2502,16 @@
                                             "id": "bu1w92mx8a80",
                                             "created": 1557716041957,
                                             "text": "问题及解决方案",
-                                            "expandState": "collapse"
+                                            "expandState": "expand",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "bu1wb2e9go80",
                                                     "created": 1557716198162,
-                                                    "text": "分布式锁"
+                                                    "text": "分布式锁",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -2219,7 +2519,28 @@
                                                 "data": {
                                                     "id": "bu1w9lt5bc00",
                                                     "created": 1557716083692,
-                                                    "text": "雪崩"
+                                                    "text": "雪崩",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu235nnntk00",
+                                                    "created": 1557735522027,
+                                                    "text": "缓存穿透",
+                                                    "layout_right_offset": {
+                                                        "x": 0,
+                                                        "y": 2
+                                                    }
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu235xis8dc0",
+                                                    "created": 1557735543500,
+                                                    "text": "缓存击穿"
                                                 },
                                                 "children": []
                                             },
@@ -2227,7 +2548,8 @@
                                                 "data": {
                                                     "id": "bu1weufstp40",
                                                     "created": 1557716494297,
-                                                    "text": "超卖"
+                                                    "text": "超卖",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -2239,7 +2561,8 @@
                                 "data": {
                                     "id": "bu1wa7ns7b40",
                                     "created": 1557716131257,
-                                    "text": "Memcached"
+                                    "text": "Memcached",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -2249,7 +2572,8 @@
                         "data": {
                             "id": "bu1u9p3akkw0",
                             "created": 1557710448616,
-                            "text": "ElasticSearch"
+                            "text": "ElasticSearch",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -2260,11 +2584,8 @@
                     "id": "bu1wbhkvkww0",
                     "created": 1557716231214,
                     "text": "大数据",
-                    "layout_mind_offset": {
-                        "x": -56.5000000372529,
-                        "y": 27.249999608844405
-                    },
-                    "expandState": "collapse"
+                    "expandState": "collapse",
+                    "layout": null
                 },
                 "children": [
                     {
@@ -2272,21 +2593,24 @@
                             "id": "bu1wbpb3gxs0",
                             "created": 1557716248036,
                             "text": "存储与查询",
-                            "expandState": "collapse"
+                            "expandState": "collapse",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "bu1wbls4rbk0",
                                     "created": 1557716240359,
-                                    "text": "Hadoop"
+                                    "text": "Hadoop",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "bu1wcs6zo080",
                                             "created": 1557716332683,
-                                            "text": "Map/Reduce"
+                                            "text": "Map/Reduce",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -2299,7 +2623,8 @@
                             "id": "bu1wbyb9qdk0",
                             "created": 1557716267638,
                             "text": "计算",
-                            "expandState": "collapse"
+                            "expandState": "collapse",
+                            "layout": null
                         },
                         "children": [
                             {
@@ -2307,14 +2632,16 @@
                                     "id": "bu1wc497cig0",
                                     "created": 1557716280574,
                                     "text": "实时",
-                                    "expandState": "expand"
+                                    "expandState": "expand",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "bu1wc05rleg0",
                                             "created": 1557716271659,
-                                            "text": "Flink"
+                                            "text": "Flink",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -2324,14 +2651,16 @@
                                 "data": {
                                     "id": "bu1wc9n1em00",
                                     "created": 1557716292294,
-                                    "text": "离线"
+                                    "text": "离线",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "bu1wcgudh5s0",
                                             "created": 1557716307975,
-                                            "text": "HBase"
+                                            "text": "HBase",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -2339,7 +2668,8 @@
                                         "data": {
                                             "id": "bu1wcloss3k0",
                                             "created": 1557716318522,
-                                            "text": "Spark"
+                                            "text": "Spark",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -2354,18 +2684,16 @@
                     "id": "bu1wp2oamj40",
                     "created": 1557717295867,
                     "text": "人工智能",
-                    "layout_mind_offset": {
-                        "x": -58.33333082911054,
-                        "y": 22.49999966472376
-                    },
-                    "expandState": "collapse"
+                    "expandState": "collapse",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "bu1wum8g1iw0",
                             "created": 1557717730265,
-                            "text": "定义"
+                            "text": "定义",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -2373,7 +2701,8 @@
                         "data": {
                             "id": "bu1wuhal7q00",
                             "created": 1557717719511,
-                            "text": "算法"
+                            "text": "算法",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -2382,14 +2711,16 @@
                             "id": "bu1wu39hdsw0",
                             "created": 1557717688969,
                             "text": "机器学习",
-                            "expandState": "collapse"
+                            "expandState": "collapse",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "bu1wuaqtbvc0",
                                     "created": 1557717705254,
-                                    "text": "神经网络"
+                                    "text": "神经网络",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -2402,25 +2733,24 @@
                     "id": "bu1wp9qyjs80",
                     "created": 1557717311265,
                     "text": "物联网",
-                    "layout_mind_offset": {
-                        "x": -47.500001378357325,
-                        "y": 30.91666515378509
-                    },
-                    "expandState": "collapse"
+                    "expandState": "collapse",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "bu1wv4pmueo0",
                             "created": 1557717770486,
-                            "text": "网络协议"
+                            "text": "网络协议",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "bu1wvc99pvk0",
                                     "created": 1557717786911,
-                                    "text": "MQTT"
+                                    "text": "MQTT",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -2430,7 +2760,8 @@
                         "data": {
                             "id": "bu1wvfd31a00",
                             "created": 1557717793672,
-                            "text": "安全"
+                            "text": "安全",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -2441,10 +2772,7 @@
                     "id": "bu1u8beqp400",
                     "created": 1557710340470,
                     "text": "网络",
-                    "layout_mind_offset": {
-                        "x": 51.999999329447746,
-                        "y": -30.250001918524447
-                    }
+                    "layout": null
                 },
                 "children": []
             },
@@ -2453,18 +2781,16 @@
                     "id": "bu1zhlkvgls0",
                     "created": 1557725173435,
                     "text": "系统",
-                    "layout_mind_offset": {
-                        "x": 58.74999912455684,
-                        "y": -2.49999996274704
-                    },
-                    "expandState": "collapse"
+                    "expandState": "collapse",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "bu1zho0ylmw0",
                             "created": 1557725178761,
-                            "text": "linux"
+                            "text": "linux",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -2475,10 +2801,7 @@
                     "id": "bu1u8e7fqg80",
                     "created": 1557710346559,
                     "text": "算法",
-                    "layout_mind_offset": {
-                        "x": 62.499999962747154,
-                        "y": 38.250000204890966
-                    }
+                    "layout": null
                 },
                 "children": []
             },
@@ -2487,11 +2810,8 @@
                     "id": "bu1u9jf21ls0",
                     "created": 1557710436267,
                     "text": "中间件",
-                    "layout_mind_offset": {
-                        "x": 62.50000011175882,
-                        "y": 51.749999869614896
-                    },
-                    "expandState": "collapse"
+                    "expandState": "collapse",
+                    "layout": null
                 },
                 "children": [
                     {
@@ -2499,14 +2819,16 @@
                             "id": "bu1wtdveczs0",
                             "created": 1557717633698,
                             "text": "Kafka",
-                            "expandState": "collapse"
+                            "expandState": "collapse",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "bu1xcvpbfy00",
                                     "created": 1557719161431,
-                                    "text": "高性能"
+                                    "text": "高性能",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -2515,14 +2837,16 @@
                                     "id": "bu201ipuhug0",
                                     "created": 1557726734489,
                                     "text": "问题及方案",
-                                    "expandState": "collapse"
+                                    "expandState": "collapse",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "bu201p0u7w00",
                                             "created": 1557726748214,
-                                            "text": "为什么kafka不实现主从模式？"
+                                            "text": "为什么kafka不实现主从模式？",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -2537,18 +2861,16 @@
                     "id": "bu1uc6qnnig0",
                     "created": 1557710643763,
                     "text": "安全",
-                    "layout_mind_offset": {
-                        "x": 60.000000074505806,
-                        "y": 61
-                    },
-                    "expandState": "collapse"
+                    "expandState": "collapse",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "bu1wtj4ngs00",
                             "created": 1557717645141,
-                            "text": "攻击"
+                            "text": "攻击",
+                            "layout": null
                         },
                         "children": []
                     }
