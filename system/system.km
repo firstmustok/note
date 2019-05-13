@@ -12,9 +12,216 @@
                     "id": "bu1zho0ylmw0",
                     "created": 1557725178761,
                     "text": "linux",
-                    "layout": null
+                    "layout": null,
+                    "layout_mind_offset": {
+                        "x": -74,
+                        "y": -2
+                    }
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu29fx3zec00",
+                            "created": 1557753252906,
+                            "text": "namesapce",
+                            "layout_right_offset": {
+                                "x": 6,
+                                "y": -17
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu29g2aywug0",
+                                    "created": 1557753264212,
+                                    "text": "定义",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu29gsgtn800",
+                                            "created": 1557753321164,
+                                            "text": "一种资源隔离方案"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu29hxbbzo80",
+                                    "created": 1557753410079,
+                                    "text": "类型",
+                                    "expandState": "expand",
+                                    "layout_right_offset": {
+                                        "x": 2,
+                                        "y": 3
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu29g0604e80",
+                                            "created": 1557753259558,
+                                            "text": "network"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu29jwzzepc0",
+                                                    "created": 1557753566121,
+                                                    "text": "网络信息，docker创建多个网卡",
+                                                    "layout_right_offset": {
+                                                        "x": -20,
+                                                        "y": 1
+                                                    }
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu29i1se4aw0",
+                                            "created": 1557753419817,
+                                            "text": "UTS(Unix TimeShareing Sytem) "
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu29iyhn6g00",
+                                                    "created": 1557753491001,
+                                                    "text": "包含内存名称、版本、底层体系结构等信息",
+                                                    "layout_right_offset": {
+                                                        "x": -25,
+                                                        "y": -2
+                                                    }
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu29j20flpc0",
+                                            "created": 1557753498668,
+                                            "text": "PID"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu29j8a3dqo0",
+                                                    "created": 1557753512313,
+                                                    "text": "进程ID的信息"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu29jb0d7e80",
+                                            "created": 1557753518255,
+                                            "text": "MNT"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu29jeofv6w0",
+                                                    "created": 1557753526241,
+                                                    "text": "当前装载的文件系统"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu29jidr0yo0",
+                                            "created": 1557753534301,
+                                            "text": "IPC"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu29jkn1b740",
+                                                    "created": 1557753539217,
+                                                    "text": "进程间通讯（IPC）有关的信息"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu29jyff9w80",
+                                            "created": 1557753569232,
+                                            "text": "user"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu29k2462200",
+                                                    "created": 1557753577258,
+                                                    "text": "资源配额的信息"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu29ka5rssw0",
+                                    "created": 1557753594769,
+                                    "text": "问题"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu29kdwx3m80",
+                                            "created": 1557753602941,
+                                            "text": "docker时间问题",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu29ki6upg80",
+                                                    "created": 1557753612249,
+                                                    "text": "全局只有一个系统时钟，但有可以有多个时区",
+                                                    "layout_right_offset": {
+                                                        "x": -29,
+                                                        "y": 0
+                                                    }
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu29l3ocpkw0",
+                                            "created": 1557753659019,
+                                            "text": "分支主题"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu29gc4j3140",
+                            "created": 1557753285591,
+                            "text": "chroot"
+                        },
+                        "children": []
+                    }
+                ]
             }
         ]
     },
