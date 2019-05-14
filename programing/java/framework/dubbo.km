@@ -1,0 +1,64 @@
+{
+    "root": {
+        "data": {
+            "id": "btwxjmw944g0",
+            "created": 1557211891025,
+            "text": "Dubbo",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bu1zl71ua9c0",
+                    "created": 1557725455266,
+                    "text": "架构及分层",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bu31gguai2g0",
+                    "created": 1557832286933,
+                    "text": "注册中心"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bu31glhxdpc0",
+                    "created": 1557832297069,
+                    "text": "序列化反序列化"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bu1zkjar34w0",
+                    "created": 1557725403562,
+                    "text": "问题案例",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1zkprrlu00",
+                            "created": 1557725417652,
+                            "text": "注册中心挂了，是否还可以继续使用？",
+                            "layout": null,
+                            "layout_left_offset": {
+                                "x": 38,
+                                "y": 0
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

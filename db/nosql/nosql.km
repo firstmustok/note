@@ -1,0 +1,954 @@
+{
+    "root": {
+        "data": {
+            "id": "btwxjmw944g0",
+            "created": 1557211891025,
+            "text": "NoSQL",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bu1u8nohw200",
+                    "created": 1557710367181,
+                    "text": "Redis",
+                    "expandState": "expand",
+                    "layout": null,
+                    "layout_mind_offset": {
+                        "x": -76,
+                        "y": -2
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1wag1idi80",
+                            "created": 1557716149502,
+                            "text": "基础知识",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu209n7wguw0",
+                                    "created": 1557727371201,
+                                    "text": "定义",
+                                    "expandState": "collapse",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu20ak7ije80",
+                                            "created": 1557727443011,
+                                            "text": "REmote DIctionary Server(Redis)",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu20aolnv0w0",
+                                            "created": 1557727452574,
+                                            "text": "KV存储",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu20at7st2o0",
+                                            "created": 1557727462620,
+                                            "text": "单线程",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu20b27780g0",
+                                            "created": 1557727482174,
+                                            "text": "高性能",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu20bkoqeqw0",
+                                            "created": 1557727522417,
+                                            "text": "可基于内存亦可持久化的日志型",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1zw80jrrk0",
+                                    "created": 1557726319370,
+                                    "text": "架构",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1walepmmo0",
+                                    "created": 1557716161184,
+                                    "text": "数据类型",
+                                    "expandState": "collapse",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu1zv5rcx8w0",
+                                            "created": 1557726236097,
+                                            "text": "STRING",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1zvbp98t40",
+                                            "created": 1557726249031,
+                                            "text": "LIST",
+                                            "expandState": "expand",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu1waqjqvj40",
+                                                    "created": 1557716172372,
+                                                    "text": "跳表",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1zvd3l5ag0",
+                                            "created": 1557726252074,
+                                            "text": "SET",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1zveelvhs0",
+                                            "created": 1557726254917,
+                                            "text": "HASH",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1zviadbgg0",
+                                            "created": 1557726263368,
+                                            "text": "ZSET",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1zw1wqqa80",
+                                    "created": 1557726306080,
+                                    "text": "通信协议",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1zwkhu60g0",
+                                    "created": 1557726346537,
+                                    "text": "事务",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1zws3be740",
+                                    "created": 1557726363073,
+                                    "text": "持久化",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu1zxuqzy2w0",
+                                            "created": 1557726447223,
+                                            "text": "快照(RDB Snapshot)",
+                                            "expandState": "collapse",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu202u541so0",
+                                                    "created": 1557726837721,
+                                                    "text": "设置",
+                                                    "expandState": "collapse",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu203iuh7a80",
+                                                            "created": 1557726891497,
+                                                            "text": "N秒内至少M个改动",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu203weqm080",
+                                                            "created": 1557726921020,
+                                                            "text": "BGSAVE or SAVE",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu1zymzrjko0",
+                                                    "created": 1557726508703,
+                                                    "text": "原理及实现",
+                                                    "expandState": "collapse",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu1zyrm2h4o0",
+                                                            "created": 1557726518759,
+                                                            "text": "创建子进程",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu1zyyg9xb40",
+                                                            "created": 1557726533646,
+                                                            "text": "子进程将数据写到*临时*文件 (默认dump.rdb)",
+                                                            "expandState": "collapse",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu207kzt66o0",
+                                                                    "created": 1557727209630,
+                                                                    "text": "TODO 如何确定快照？事务中怎么办？",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu1zzmj4gmo0",
+                                                            "created": 1557726586061,
+                                                            "text": "完成写入，Redis用新快照替换原来的快照，并删除旧快照文件。",
+                                                            "expandState": "collapse",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu20117oj7c0",
+                                                                    "created": 1557726696385,
+                                                                    "text": "TODO 如何替换？",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu204jaav940",
+                                                    "created": 1557726970818,
+                                                    "text": "优缺点",
+                                                    "expandState": "collapse",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu205mqz5wg0",
+                                                            "created": 1557727056721,
+                                                            "text": "优点",
+                                                            "expandState": "collapse",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu204o4z9zs0",
+                                                                    "created": 1557726981380,
+                                                                    "text": "保存某个时间点数据，适合备份",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu2054r0vc00",
+                                                                    "created": 1557727017542,
+                                                                    "text": "适合灾备恢复",
+                                                                    "expandState": "expand",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu206fppl2o0",
+                                                                    "created": 1557727119771,
+                                                                    "text": "独立进程，最大化性能",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu206tynd540",
+                                                                    "created": 1557727150786,
+                                                                    "text": "恢复大数据时，速度较快",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu20699jcf40",
+                                                            "created": 1557727105732,
+                                                            "text": "缺点",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu207bb5xy80",
+                                                                    "created": 1557727188549,
+                                                                    "text": "意外停机，丢失数据较多",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu208hk3vxc0",
+                                                                    "created": 1557727280514,
+                                                                    "text": "数据集大时，fork子进程耗时",
+                                                                    "expandState": "collapse",
+                                                                    "layout": null
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bu2097xzg540",
+                                                                            "created": 1557727337950,
+                                                                            "text": "TODO fork为什么会耗时？",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu1zy6cpggw0",
+                                            "created": 1557726472480,
+                                            "text": "AOF（Append Of File)",
+                                            "expandState": "collapse",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu1zymzrjko0",
+                                                    "created": 1557726508703,
+                                                    "text": "原理及实现",
+                                                    "expandState": "expand",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu1zyrm2h4o0",
+                                                            "created": 1557726518759,
+                                                            "text": "创建子进程",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu1zyyg9xb40",
+                                                            "created": 1557726533646,
+                                                            "text": "子进程将数据写到*临时*文件 (默认dump.rdb)",
+                                                            "expandState": "collapse",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu207kzt66o0",
+                                                                    "created": 1557727209630,
+                                                                    "text": "TODO 如何确定快照？事务中怎么办？",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu1zzmj4gmo0",
+                                                            "created": 1557726586061,
+                                                            "text": "完成写入，Redis用新快照替换原来的快照，并删除旧快照文件。",
+                                                            "expandState": "collapse",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu20117oj7c0",
+                                                                    "created": 1557726696385,
+                                                                    "text": "TODO 如何替换？",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu204jaav940",
+                                                    "created": 1557726970818,
+                                                    "text": "优缺点",
+                                                    "expandState": "expand",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu205mqz5wg0",
+                                                            "created": 1557727056721,
+                                                            "text": "优点",
+                                                            "expandState": "expand",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu204o4z9zs0",
+                                                                    "created": 1557726981380,
+                                                                    "text": "保存某个时间点数据，适合备份",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu2054r0vc00",
+                                                                    "created": 1557727017542,
+                                                                    "text": "适合灾备恢复",
+                                                                    "expandState": "expand",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu206fppl2o0",
+                                                                    "created": 1557727119771,
+                                                                    "text": "独立进程，最大化性能",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu206tynd540",
+                                                                    "created": 1557727150786,
+                                                                    "text": "恢复大数据时，速度较快",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu20699jcf40",
+                                                            "created": 1557727105732,
+                                                            "text": "缺点",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu207bb5xy80",
+                                                                    "created": 1557727188549,
+                                                                    "text": "意外停机，丢失数据较多",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu208hk3vxc0",
+                                                                    "created": 1557727280514,
+                                                                    "text": "数据集大时，fork子进程耗时",
+                                                                    "expandState": "collapse",
+                                                                    "layout": null
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bu2097xzg540",
+                                                                            "created": 1557727337950,
+                                                                            "text": "TODO fork为什么会耗时？",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu1w9fq035c0",
+                            "created": 1557716070442,
+                            "text": "分布式方案",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu1w92mx8a80",
+                            "created": 1557716041957,
+                            "text": "问题及解决方案",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu1wb2e9go80",
+                                    "created": 1557716198162,
+                                    "text": "分布式锁",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1w9lt5bc00",
+                                    "created": 1557716083692,
+                                    "text": "缓存雪崩",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu2yy82cvsw0",
+                                            "created": 1557825215055,
+                                            "text": "定义"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu2yyc4jfk80",
+                                                    "created": 1557825223894,
+                                                    "text": "缓存同一时间失效"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu2yyozl81c0",
+                                            "created": 1557825251893,
+                                            "text": "解决方案"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu2yz1uphsg0",
+                                                    "created": 1557825279896,
+                                                    "text": "1. 在缓存时间基础加上一个随机时间"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu2yzs4dl800",
+                                                    "created": 1557825337077,
+                                                    "text": "2. 加锁方案Guava, 控制并发",
+                                                    "expandState": "collapse"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu2z3qpdq680",
+                                                            "created": 1557825647450,
+                                                            "text": "1. 查Cache，Key Miss，先Lock"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu2z413hzkw0",
+                                                            "created": 1557825670071,
+                                                            "text": "2. 获取到锁的线程进行查库，放入Cache，释放锁，唤醒其他线程"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu2z4801nvk0",
+                                                            "created": 1557825685100,
+                                                            "text": "3. 其他线程等待，直到被唤醒，再查Cache（Double check）"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu2z4cqdo9s0",
+                                                            "created": 1557825695400,
+                                                            "text": "4. 失败，则重试，或返回一个默认值"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu2z5d3z2ao0",
+                                                    "created": 1557825774586,
+                                                    "text": "3. 整流队列",
+                                                    "expandState": "collapse"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu2z5nhscyo0",
+                                                            "created": 1557825797189,
+                                                            "text": "1. 查DB前先通过整流器，可按key的总要程度划分多个优先级队列，重要的获取令牌百分比大"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu2z5sa1w600",
+                                                            "created": 1557825807605,
+                                                            "text": "2. 获取到令牌的进入消费线程池队列"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu2zik4z4f40",
+                                                    "created": 1557826808618,
+                                                    "text": "4. 采取二级缓存策略"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu235nnntk00",
+                                    "created": 1557735522027,
+                                    "text": "缓存穿透",
+                                    "layout_right_offset": {
+                                        "x": 0,
+                                        "y": 2
+                                    },
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu2yr7iss7k0",
+                                            "created": 1557824665323,
+                                            "text": "定义"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu2yraavysg0",
+                                                    "created": 1557824671375,
+                                                    "text": "查询一定不存在的数据，出于容错考虑，回源到数据存储层，从而使缓存失去意义"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu2yw7d1apc0",
+                                            "created": 1557825056795,
+                                            "text": "解决方案",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu2ywaauktc0",
+                                                    "created": 1557825063194,
+                                                    "text": "布隆过滤器"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu2ywlv3unc0",
+                                                            "created": 1557825088363,
+                                                            "text": "缺点"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu2ywrwumeg0",
+                                                                    "created": 1557825101529,
+                                                                    "text": "误杀"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu2zfqwtj8o0",
+                                                                    "created": 1557826588270,
+                                                                    "text": "占用部分内存空间"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu2zg1dkc0w0",
+                                                                    "created": 1557826611050,
+                                                                    "text": "无法删除"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bu2zg6chfog0",
+                                                                            "created": 1557826621869,
+                                                                            "text": "即使数据库中删除该数据，也无法将其从bloomfilter中删除，只能重新构建。"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu2z21v0sio0",
+                                                    "created": 1557825515007,
+                                                    "text": "缓存空结果+过期"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu235xis8dc0",
+                                    "created": 1557735543500,
+                                    "text": "缓存击穿",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu2z6e4mn7s0",
+                                            "created": 1557825855166,
+                                            "text": "定义",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu2z6fs9r1c0",
+                                                    "created": 1557825858773,
+                                                    "text": "对于单个热Key，某个时间失效，请求打到存储层"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu2z7di3k8o0",
+                                                    "created": 1557825932168,
+                                                    "text": "超高并发单Key（一般是hash到单台机上），打满单机的网卡/cpu"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu2z7mgtigo0",
+                                            "created": 1557825951682,
+                                            "text": "解决方案"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu2z8l1mns00",
+                                                    "created": 1557826026951,
+                                                    "text": "1. 加锁"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu2za8nsv1k0",
+                                                    "created": 1557826156722,
+                                                    "text": "2. 预热(12306验证码)",
+                                                    "expandState": "collapse"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu2zae1ajjk0",
+                                                            "created": 1557826168421,
+                                                            "text": "1. 先将数据缓存"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu2zar2f30w0",
+                                                            "created": 1557826196787,
+                                                            "text": "2. 后台线程定时刷新，或者后台线程维护"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu2zbkgcsb40",
+                                                    "created": 1557826260757,
+                                                    "text": "3. 多级缓存",
+                                                    "expandState": "collapse"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu2zblzjckg0",
+                                                            "created": 1557826264093,
+                                                            "text": "1. 热点Key放在本地缓存"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu2zbrfcvuw0",
+                                                            "created": 1557826275934,
+                                                            "text": "2. 远程缓存进行主动推送更新本缓存"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu2zd3sgfmg0",
+                                                    "created": 1557826381212,
+                                                    "text": "4. 热点动态散列"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1weufstp40",
+                                    "created": 1557716494297,
+                                    "text": "超卖",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu1wa7ns7b40",
+                    "created": 1557716131257,
+                    "text": "Memcached",
+                    "layout": null,
+                    "layout_mind_offset": {
+                        "x": 69,
+                        "y": -2
+                    }
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

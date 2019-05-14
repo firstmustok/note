@@ -12,8 +12,12 @@
                     "id": "bu1zgqtiu0o0",
                     "created": 1557725106478,
                     "text": "基础知识",
-                    "expandState": "expand",
-                    "layout": null
+                    "expandState": "collapse",
+                    "layout": null,
+                    "layout_mind_offset": {
+                        "x": -104,
+                        "y": -41
+                    }
                 },
                 "children": [
                     {
@@ -105,43 +109,14 @@
             },
             {
                 "data": {
-                    "id": "bu1vvndbv5s0",
-                    "created": 1557714989991,
-                    "text": "JVM",
-                    "expandState": "expand",
-                    "layout": null
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": "bu1wpra06xs0",
-                            "created": 1557717349422,
-                            "text": "垃圾回收",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "bu1zudio8cw0",
-                            "created": 1557726174622,
-                            "text": "性能调优",
-                            "layout": null
-                        },
-                        "children": []
-                    }
-                ]
-            },
-            {
-                "data": {
                     "id": "bu1u73nbp2g0",
                     "created": 1557710245210,
                     "text": "Java源代码",
                     "expandState": "collapse",
                     "layout": null,
                     "layout_mind_offset": {
-                        "x": 56,
-                        "y": 15
+                        "x": -102,
+                        "y": 33
                     }
                 },
                 "children": [
@@ -283,136 +258,32 @@
             },
             {
                 "data": {
-                    "id": "bu1zjzzgfbs0",
-                    "created": 1557725361520,
-                    "text": "框架",
-                    "expandState": "expand",
-                    "layout": null
+                    "id": "bu1vvndbv5s0",
+                    "created": 1557714989991,
+                    "text": "JVM",
+                    "expandState": "collapse",
+                    "layout": null,
+                    "layout_mind_offset": {
+                        "x": 66,
+                        "y": -2
+                    }
                 },
                 "children": [
                     {
                         "data": {
-                            "id": "bu1uae6qbk00",
-                            "created": 1557710503244,
-                            "text": "Spring",
-                            "expandState": "collapse",
+                            "id": "bu1wpra06xs0",
+                            "created": 1557717349422,
+                            "text": "垃圾回收",
                             "layout": null
                         },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "bu1zln3fleo0",
-                                    "created": 1557725490191,
-                                    "text": "架构及分层",
-                                    "expandState": "collapse",
-                                    "layout": null
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "bu1zmmcos800",
-                                            "created": 1557725566938,
-                                            "text": "AOP",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "bu1zmul5k800",
-                                            "created": 1557725584864,
-                                            "text": "IOC",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            },
-                            {
-                                "data": {
-                                    "id": "bu1zm81o6yo0",
-                                    "created": 1557725535797,
-                                    "text": "技术及源码分析",
-                                    "expandState": "collapse",
-                                    "layout": null
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "bu1xd8fawfs0",
-                                            "created": 1557719189124,
-                                            "text": "bean初始化流程",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "bu1xdgfk99k0",
-                                            "created": 1557719206554,
-                                            "text": "Bean循环依赖",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "bu0pk1qm44o0",
-                                            "created": 1557595594283,
-                                            "text": "LocalVariableTableParameterNameDiscoverer",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            }
-                        ]
+                        "children": []
                     },
                     {
                         "data": {
-                            "id": "bu1zkalxlp40",
-                            "created": 1557725384647,
-                            "text": "Dubbo",
-                            "expandState": "collapse",
+                            "id": "bu1zudio8cw0",
+                            "created": 1557726174622,
+                            "text": "性能调优",
                             "layout": null
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "bu1zl71ua9c0",
-                                    "created": 1557725455266,
-                                    "text": "架构及分层",
-                                    "layout": null
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bu1zkjar34w0",
-                                    "created": 1557725403562,
-                                    "text": "问题案例",
-                                    "expandState": "expand",
-                                    "layout": null
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "bu1zkprrlu00",
-                                            "created": 1557725417652,
-                                            "text": "注册中心挂了，是否还可以继续使用？",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "data": {
-                            "id": "bu24j13va3c0",
-                            "created": 1557739391149,
-                            "text": "Netty"
                         },
                         "children": []
                     }

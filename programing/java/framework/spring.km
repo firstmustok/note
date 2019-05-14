@@ -1,0 +1,90 @@
+{
+    "root": {
+        "data": {
+            "id": "btwxjmw944g0",
+            "created": 1557211891025,
+            "text": "Spring",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bu1zln3fleo0",
+                    "created": 1557725490191,
+                    "text": "架构及分层",
+                    "expandState": "expand",
+                    "layout": null,
+                    "layout_mind_offset": {
+                        "x": -92,
+                        "y": 4
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1zmmcos800",
+                            "created": 1557725566938,
+                            "text": "AOP",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu1zmul5k800",
+                            "created": 1557725584864,
+                            "text": "IOC",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu1zm81o6yo0",
+                    "created": 1557725535797,
+                    "text": "技术及源码分析",
+                    "expandState": "collapse",
+                    "layout": null,
+                    "layout_mind_offset": {
+                        "x": 94,
+                        "y": 1
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1xd8fawfs0",
+                            "created": 1557719189124,
+                            "text": "bean初始化流程",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu1xdgfk99k0",
+                            "created": 1557719206554,
+                            "text": "Bean循环依赖",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu0pk1qm44o0",
+                            "created": 1557595594283,
+                            "text": "LocalVariableTableParameterNameDiscoverer",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

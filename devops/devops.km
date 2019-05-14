@@ -26,7 +26,8 @@
                     "layout_mind_offset": {
                         "x": -63,
                         "y": 1
-                    }
+                    },
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -67,7 +68,8 @@
                         "data": {
                             "id": "bu29q0o9hw00",
                             "created": 1557754044304,
-                            "text": "镜像(Image)"
+                            "text": "镜像(Image)",
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -79,27 +81,103 @@
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "bu29qbp70u80",
-                                            "created": 1557754068305,
-                                            "text": "scratch镜像"
+                                            "id": "bu2p34ha33s0",
+                                            "created": 1557797387972,
+                                            "text": "基础镜像",
+                                            "expandState": "collapse"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu29qbp70u80",
+                                                    "created": 1557754068305,
+                                                    "text": "scratch镜像"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu29sdb3m880",
+                                                    "created": 1557754228535,
+                                                    "text": "busybox(1.16M)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu29u9dn1vs0",
+                                                    "created": 1557754376710,
+                                                    "text": "alpine(5M)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu2p3sn2uc80",
+                                                    "created": 1557797440565,
+                                                    "text": "ubuntu:latest(188M)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu2p3v2q4yo0",
+                                                    "created": 1557797445865,
+                                                    "text": "debian:latest(125M)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu2p3xboo340",
+                                                    "created": 1557797450760,
+                                                    "text": "centos:latest(196M)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     },
                                     {
                                         "data": {
-                                            "id": "bu29sdb3m880",
-                                            "created": 1557754228535,
-                                            "text": "busybox(1.16M)"
+                                            "id": "bu2p67rue9k0",
+                                            "created": 1557797630233,
+                                            "text": "减小Docker镜像尺寸"
                                         },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "bu29u9dn1vs0",
-                                            "created": 1557754376710,
-                                            "text": "alpine"
-                                        },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu2p697tmb40",
+                                                    "created": 1557797633376,
+                                                    "text": "1. 优化基础镜像"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu2p6inzg5c0",
+                                                    "created": 1557797653945,
+                                                    "text": "2. 串联 Dockerfile 指令, 最后进行清理"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu2p7kbv2go0",
+                                                            "created": 1557797735929,
+                                                            "text": "避免超出最大层数（127层）限制"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu2p7paaee80",
+                                                            "created": 1557797746718,
+                                                            "text": "降低镜像体积，以及最大化的利用构建缓存"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -110,11 +188,7 @@
                             "id": "bu29d64wkm80",
                             "created": 1557753037460,
                             "text": "网络问题",
-                            "expandState": "expand",
-                            "layout_right_offset": {
-                                "x": 3,
-                                "y": 28
-                            }
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -140,10 +214,10 @@
                             "id": "bu29dz2k5iw0",
                             "created": 1557753100445,
                             "text": "容器编排",
-                            "expandState": "expand",
+                            "expandState": "collapse",
                             "layout_right_offset": {
-                                "x": -6,
-                                "y": -8
+                                "x": -7,
+                                "y": -6
                             }
                         },
                         "children": [
@@ -157,7 +231,25 @@
                                         "y": 0
                                     }
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu2optxu30w0",
+                                            "created": 1557796346294,
+                                            "text": "UI"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu2opv5ukbc0",
+                                                    "created": 1557796348955,
+                                                    "text": "portainer"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 "data": {
@@ -178,7 +270,7 @@
                             "id": "bu29mr8ijnc0",
                             "created": 1557753788668,
                             "text": "问题",
-                            "expandState": "expand",
+                            "expandState": "collapse",
                             "layout": null
                         },
                         "children": [
@@ -187,7 +279,8 @@
                                     "id": "bu29mtec8ps0",
                                     "created": 1557753793374,
                                     "text": "时间问题",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -195,7 +288,29 @@
                                             "id": "bu29mzda94g0",
                                             "created": 1557753806371,
                                             "text": "全局只有一个系统时钟，但可以有多个时区",
+                                            "layout_right_offset": {
+                                                "x": -20,
+                                                "y": 1
+                                            },
                                             "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu2ot01os940",
+                                    "created": 1557796594680,
+                                    "text": "Kernel",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu2ot2cf6qo0",
+                                            "created": 1557796599683,
+                                            "text": "共享系统kernel, 所以全局中有一个版本kernel"
                                         },
                                         "children": []
                                     }
