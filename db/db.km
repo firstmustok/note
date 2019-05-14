@@ -78,10 +78,18 @@
                     },
                     {
                         "data": {
+                            "id": "bu31p7quug00",
+                            "created": 1557832972412,
+                            "text": "数据库事务及区别"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
                             "id": "bu1wgq3s9eg0",
                             "created": 1557716641592,
                             "text": " 高并发方案",
-                            "expandState": "expand",
+                            "expandState": "collapse",
                             "layout": null
                         },
                         "children": [
@@ -236,7 +244,7 @@
                             "id": "bu1wkc97wdk0",
                             "created": 1557716924902,
                             "text": "数据库类型",
-                            "expandState": "expand",
+                            "expandState": "collapse",
                             "layout": null
                         },
                         "children": [
@@ -245,7 +253,7 @@
                                     "id": "bu1u8h3d2l40",
                                     "created": 1557710352842,
                                     "text": "MySQL",
-                                    "expandState": "expand",
+                                    "expandState": "collapse",
                                     "layout": null
                                 },
                                 "children": [
@@ -265,7 +273,20 @@
                                                     "text": "InnoDB",
                                                     "layout": null
                                                 },
-                                                "children": []
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu31phigdls0",
+                                                            "created": 1557832993672,
+                                                            "text": "支持事务及区别",
+                                                            "layout_right_offset": {
+                                                                "x": 19,
+                                                                "y": 0
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "data": {

@@ -5,7 +5,708 @@
             "created": 1557751522253,
             "text": "网络"
         },
-        "children": []
+        "children": [
+            {
+                "data": {
+                    "id": "bu31utohwxc0",
+                    "created": 1557833411979,
+                    "text": "模型",
+                    "layout_mind_offset": {
+                        "x": -92,
+                        "y": 0
+                    },
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu31uvkrde80",
+                            "created": 1557833416107,
+                            "text": "7层",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu31x2jr5k80",
+                                    "created": 1557833588012,
+                                    "text": "应用层"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu31x4fizbs0",
+                                    "created": 1557833592110,
+                                    "text": "表示层"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu31x67eo800",
+                                    "created": 1557833595972,
+                                    "text": "会话层"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu31x8505zs0",
+                                    "created": 1557833600181,
+                                    "text": "传输层"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu31xa5zl000",
+                                    "created": 1557833604594,
+                                    "text": "网络层"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu31xc9ir5s0",
+                                    "created": 1557833609161,
+                                    "text": "数据链路层"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu31xe0910o0",
+                                    "created": 1557833612954,
+                                    "text": "物理层"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu31uy7j2t40",
+                            "created": 1557833421838,
+                            "text": "4层",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu31xici8vc0",
+                                    "created": 1557833622402,
+                                    "text": "应用层"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu31xmcdm7c0",
+                                    "created": 1557833631101,
+                                    "text": "主机到主机层（TCP）（又称传输层）"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu31xo5wzc80",
+                                    "created": 1557833635064,
+                                    "text": "网络层（IP）（又称互联层）"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu31xrk266o0",
+                                    "created": 1557833642450,
+                                    "text": "网络接口层（又称链路层）"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu341w7ch2w0",
+                    "created": 1557839608241,
+                    "text": "网络性能调优"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bu31v462n7k0",
+                    "created": 1557833434810,
+                    "text": "协议TCP/IP",
+                    "layout_mind_offset": {
+                        "x": 88,
+                        "y": 2
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu31wp6zgjk0",
+                            "created": 1557833558941,
+                            "text": "应用层",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu34a5vc16w0",
+                                    "created": 1557840256196,
+                                    "text": "TCP",
+                                    "expandState": "collapse",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu34ab4zko80",
+                                            "created": 1557840267664,
+                                            "text": "FTP(File Transfer Protocol)",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu34bfakb200",
+                                            "created": 1557840355072,
+                                            "text": "TFTP",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu34awuk3gg0",
+                                            "created": 1557840314922,
+                                            "text": "HTTP",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu34b340meo0",
+                                            "created": 1557840328555,
+                                            "text": "Telnet",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu34a7fow7s0",
+                                    "created": 1557840259604,
+                                    "text": "UDP",
+                                    "expandState": "collapse",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu34dhqclew0",
+                                            "created": 1557840517109,
+                                            "text": "TFTP(69)",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu34dp0xdzk0",
+                                            "created": 1557840532986,
+                                            "text": "SNMP(161)",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu34j9rn3nc0",
+                                    "created": 1557840969958,
+                                    "text": "TCP + UDP",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu34dbe5qxs0",
+                                            "created": 1557840503311,
+                                            "text": "DNS(53)",
+                                            "expandState": "expand",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu34lc5jnrs0",
+                                                    "created": 1557841131880,
+                                                    "text": "域名",
+                                                    "expandState": "expand",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu34m5yn6co0",
+                                                            "created": 1557841196766,
+                                                            "text": "定义",
+                                                            "expandState": "expand",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu34e84iq000",
+                                                                    "created": 1557840574562,
+                                                                    "text": "对于每一级域名长度的限制是63个字符，域名总长度则不能超过253个字符",
+                                                                    "layout_left_offset": {
+                                                                        "x": 36,
+                                                                        "y": 0
+                                                                    },
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu34fh305m00",
+                                                            "created": 1557840672425,
+                                                            "text": "域名服务器",
+                                                            "expandState": "collapse",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu34fnm7lso0",
+                                                                    "created": 1557840686647,
+                                                                    "text": "根域名服务器",
+                                                                    "expandState": "collapse",
+                                                                    "layout": null
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bu34fx5okt40",
+                                                                            "created": 1557840707416,
+                                                                            "text": "全世界IPv4根服务器只有13台(A-M)",
+                                                                            "expandState": "collapse",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "bu34g717gao0",
+                                                                                    "created": 1557840728913,
+                                                                                    "text": "1个为主根服务器在美国",
+                                                                                    "layout": null
+                                                                                },
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "bu34gch5e540",
+                                                                                    "created": 1557840740761,
+                                                                                    "text": "辅根服务器",
+                                                                                    "layout": null
+                                                                                },
+                                                                                "children": [
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "id": "bu34gk2xcd40",
+                                                                                            "created": 1557840757315,
+                                                                                            "text": " 美国 9",
+                                                                                            "layout": null
+                                                                                        },
+                                                                                        "children": []
+                                                                                    },
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "id": "bu34gxgyktk0",
+                                                                                            "created": 1557840786462,
+                                                                                            "text": "欧洲2, 英国和瑞典",
+                                                                                            "layout": null
+                                                                                        },
+                                                                                        "children": []
+                                                                                    },
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "id": "bu34h9i0teo0",
+                                                                                            "created": 1557840812648,
+                                                                                            "text": "亚洲1,  日本",
+                                                                                            "layout": null
+                                                                                        },
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu34lvp9ibs0",
+                                                            "created": 1557841174431,
+                                                            "text": "服务器软件",
+                                                            "expandState": "collapse",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu34em0pzxk0",
+                                                                    "created": 1557840604807,
+                                                                    "text": "BIND",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu34mnt2tlk0",
+                                                    "created": 1557841235612,
+                                                    "text": "同时使用两种协议",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu34nn8vz8g0",
+                                                            "created": 1557841312755,
+                                                            "text": "原因",
+                                                            "expandState": "collapse",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu34nqe3qn40",
+                                                                    "created": 1557841319601,
+                                                                    "text": "UDP报文的最大长度为512字节，而TCP则允许报文长度超过512字节。",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu34nytfalc0",
+                                                                    "created": 1557841337942,
+                                                                    "text": "当DNS查询超过512字节时，协议的TC标志出现删除标志，这时则使用TCP发送",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu34oaez3js0",
+                                                            "created": 1557841363189,
+                                                            "text": "各协议场景",
+                                                            "expandState": "collapse",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu34mywemio0",
+                                                                    "created": 1557841259758,
+                                                                    "text": "进行区域传输的时候使用TCP协议",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu34n2entgo0",
+                                                                    "created": 1557841267392,
+                                                                    "text": "其它时候则使用UDP协议",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu31wmsckv40",
+                            "created": 1557833553703,
+                            "text": "主机到主机层（TCP）（又称传输层）",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu31vhlmpg00",
+                                    "created": 1557833464049,
+                                    "text": "UDP(User Datagram protocol)"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu31vgh5pmw0",
+                                    "created": 1557833461601,
+                                    "text": "TCP(Transmission Control Protocol)",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu343w4euw00",
+                                            "created": 1557839764792,
+                                            "text": "三次握手",
+                                            "layout_left_offset": {
+                                                "x": 33,
+                                                "y": 0
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu343zm41a00",
+                                                    "created": 1557839772393,
+                                                    "text": "过程",
+                                                    "expandState": "collapse"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu344m1bd0o0",
+                                                            "created": 1557839821201,
+                                                            "text": "1. 建立连接 客户端发送连接请求报文段，将SYN位置为1，Sequence Number为x",
+                                                            "layout_left_offset": {
+                                                                "x": 21,
+                                                                "y": 0
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu3443xs1w80",
+                                                    "created": 1557839781805,
+                                                    "text": "问题",
+                                                    "expandState": "collapse"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu3446ugokw0",
+                                                            "created": 1557839788135,
+                                                            "text": "为什么需要三次握手？",
+                                                            "layout_left_offset": {
+                                                                "x": 20,
+                                                                "y": 2
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu345bw1d6g0",
+                                                            "created": 1557839877479,
+                                                            "text": "为什么要等待2 * MSL（报文段最大生存时间）",
+                                                            "layout_left_offset": {
+                                                                "x": 18,
+                                                                "y": 1
+                                                            },
+                                                            "expandState": "collapse"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu345ojuzzs0",
+                                                                    "created": 1557839905040,
+                                                                    "text": "1. 保证TCP协议的全双工连接能够可靠关闭"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu345t29rog0",
+                                                                    "created": 1557839914861,
+                                                                    "text": "2. 保证这次连接的重复数据段从网络中消失"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu31wkp4nog0",
+                            "created": 1557833549155,
+                            "text": "网络层（IP）（又称互联层）",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu31z192luw0",
+                                    "created": 1557833741917,
+                                    "text": "ICMP(Internet Control Message Protocol)"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu31zy9e5s80",
+                                            "created": 1557833813771,
+                                            "text": "Ping",
+                                            "layout_left_offset": {
+                                                "x": 24,
+                                                "y": -1
+                                            }
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu347tz0dqw0",
+                                    "created": 1557840073569,
+                                    "text": "IP(Internet Protocol)"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu34c0czc8g0",
+                                    "created": 1557840400931,
+                                    "text": "IGMP"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu34c60py3c0",
+                                    "created": 1557840413250,
+                                    "text": "OSPF"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu31ygn5ahs0",
+                                    "created": 1557833697056,
+                                    "text": "ARP"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu31ynxy47k0",
+                                    "created": 1557833712947,
+                                    "text": "DHCP"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu31wemeh600",
+                            "created": 1557833535929,
+                            "text": "网络接口层（又称链路层）",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu348ylnc940",
+                                    "created": 1557840162009,
+                                    "text": "Ethernet 802.3"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu34bnsmhpc0",
+                                    "created": 1557840373579,
+                                    "text": "IEEE802"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu34brzs2ao0",
+                                    "created": 1557840382718,
+                                    "text": "IEEE802.2"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu3424xkv340",
+                    "created": 1557839627242,
+                    "text": "工具",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu34282wu7c0",
+                            "created": 1557839634095,
+                            "text": "tcpdump"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu342asjdvs0",
+                            "created": 1557839639998,
+                            "text": "wireshark"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
     },
     "template": "default",
     "theme": "fresh-blue",

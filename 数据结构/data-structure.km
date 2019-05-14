@@ -1,0 +1,105 @@
+{
+    "root": {
+        "data": {
+            "id": "bu31rio35280",
+            "created": 1557833152917,
+            "text": "数据结构与算法"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bu31syhfjy80",
+                    "created": 1557833265707,
+                    "text": "树",
+                    "expandState": "expand",
+                    "layout_mind_offset": {
+                        "x": -82,
+                        "y": 5
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu31sb35etc0",
+                            "created": 1557833214778,
+                            "text": "B树"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu31rnbuqao0",
+                            "created": 1557833163061,
+                            "text": " B+树"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu31rrp6wsw0",
+                            "created": 1557833172575,
+                            "text": "红黑树"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu31rz245mg0",
+                            "created": 1557833188594,
+                            "text": "堆"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu31t85pg0w0",
+                    "created": 1557833286766,
+                    "text": "算法",
+                    "layout_mind_offset": {
+                        "x": 83,
+                        "y": 2
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu31tc8w1a80",
+                            "created": 1557833295666,
+                            "text": "排序"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu31te3miog0",
+                            "created": 1557833299701,
+                            "text": "动态规划"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu31u8mel800",
+                            "created": 1557833366140,
+                            "text": "Hash"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu31ugkgvyo0",
+                            "created": 1557833383437,
+                            "text": "一致性Hash"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
