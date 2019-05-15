@@ -12,7 +12,7 @@
                     "id": "bu1zgqtiu0o0",
                     "created": 1557725106478,
                     "text": "基础知识",
-                    "expandState": "collapse",
+                    "expandState": "expand",
                     "layout": null,
                     "layout_mind_offset": {
                         "x": -104,
@@ -20,15 +20,6 @@
                     }
                 },
                 "children": [
-                    {
-                        "data": {
-                            "id": "bu1zh56x1a00",
-                            "created": 1557725137763,
-                            "text": "Lock vs synchronized",
-                            "layout": null
-                        },
-                        "children": []
-                    },
                     {
                         "data": {
                             "id": "bu1zqs3tft40",
@@ -104,6 +95,41 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu3lgtvg2aw0",
+                            "created": 1557888737499,
+                            "text": "多线程",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu3lgxvi9eo0",
+                                    "created": 1557888746210,
+                                    "text": "transient"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu1zh56x1a00",
+                                    "created": 1557725137763,
+                                    "text": "Lock vs synchronized",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu3lh5o1m5c0",
+                                    "created": 1557888763173,
+                                    "text": "violatile"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             },
@@ -112,7 +138,7 @@
                     "id": "bu1u73nbp2g0",
                     "created": 1557710245210,
                     "text": "Java源代码",
-                    "expandState": "collapse",
+                    "expandState": "expand",
                     "layout": null,
                     "layout_mind_offset": {
                         "x": -102,
@@ -134,9 +160,139 @@
                                     "id": "bu1zfnbbmw00",
                                     "created": 1557725020483,
                                     "text": "ConcurrentHashMap",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "collapse"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu3l8wu2wvc0",
+                                            "created": 1557888117034,
+                                            "text": "1.7 vs 1.8",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu3l9uac0tc0",
+                                                    "created": 1557888189850,
+                                                    "text": "1.7 数组 + LinkedList"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu3lb3vqlcg0",
+                                                            "created": 1557888289100,
+                                                            "text": "1. 最坏的情况，退化为单链表"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu3lbhwx9ts0",
+                                                            "created": 1557888319646,
+                                                            "text": "2. 头插法可能出现环"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu3la5mib9k0",
+                                                    "created": 1557888214531,
+                                                    "text": "1.8 数组 + 红黑树"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu3lau1qzgg0",
+                                                            "created": 1557888267695,
+                                                            "text": "当list大于8，转化为红黑树"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu3lah49c8g0",
+                                            "created": 1557888239549,
+                                            "text": "高效",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu3lal4w36w0",
+                                                    "created": 1557888248294,
+                                                    "text": "分段锁"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu3l92k6e600",
+                                    "created": 1557888129495,
+                                    "text": "LongAdder"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu3lc288viw0",
+                                            "created": 1557888363867,
+                                            "text": "分段锁"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu3lc58pt480",
+                                            "created": 1557888370425,
+                                            "text": "CAS"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu3lc6ye7e80",
+                                            "created": 1557888374155,
+                                            "text": "violatile"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu3l979enbc0",
+                                    "created": 1557888139728,
+                                    "text": "AtomicLong"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu3l9asf7800",
+                                            "created": 1557888147408,
+                                            "text": "CAS"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu3l9fxknl40",
+                                            "created": 1557888158604,
+                                            "text": "violatile"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
@@ -149,10 +305,27 @@
                             },
                             {
                                 "data": {
+                                    "id": "bu3lemar1600",
+                                    "created": 1557888564282,
+                                    "text": "ReentrantLock "
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu3lepz8vu80",
+                                    "created": 1557888572293,
+                                    "text": "ForkedJoin"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
                                     "id": "bu1zn4psltk0",
                                     "created": 1557725606912,
                                     "text": "AQS (AbstractQueuedSynchronnizer)",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {

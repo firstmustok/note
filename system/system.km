@@ -27,7 +27,8 @@
                             "layout_right_offset": {
                                 "x": 6,
                                 "y": -17
-                            }
+                            },
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -218,6 +219,53 @@
                             "id": "bu29gc4j3140",
                             "created": 1557753285591,
                             "text": "chroot"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bu3jugacqko0",
+                            "created": 1557884162804,
+                            "text": "调试工具"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu3juixca740",
+                                    "created": 1557884168548,
+                                    "text": "bcc",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu3julx5ff40",
+                                            "created": 1557884175066,
+                                            "text": "https://github.com/iovisor/bcc",
+                                            "layout_right_offset": {
+                                                "x": -15,
+                                                "y": 0
+                                            }
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu3l7uefwgw0",
+                                            "created": 1557888033370,
+                                            "text": "https://cloud.tencent.com/developer/article/1115669"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu3l888ovqw0",
+                            "created": 1557888063497,
+                            "text": "源代码"
                         },
                         "children": []
                     }

@@ -132,7 +132,11 @@
                 "data": {
                     "id": "bu341w7ch2w0",
                     "created": 1557839608241,
-                    "text": "网络性能调优"
+                    "text": "网络性能调优",
+                    "layout_mind_offset": {
+                        "x": -94,
+                        "y": 13
+                    }
                 },
                 "children": []
             },
@@ -144,7 +148,8 @@
                     "layout_mind_offset": {
                         "x": 88,
                         "y": 2
-                    }
+                    },
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -152,8 +157,12 @@
                             "id": "bu31wp6zgjk0",
                             "created": 1557833558941,
                             "text": "应用层",
-                            "expandState": "expand",
-                            "layout": null
+                            "expandState": "collapse",
+                            "layout": null,
+                            "layout_left_offset": {
+                                "x": -30,
+                                "y": 14
+                            }
                         },
                         "children": [
                             {
@@ -169,7 +178,7 @@
                                         "data": {
                                             "id": "bu34ab4zko80",
                                             "created": 1557840267664,
-                                            "text": "FTP(File Transfer Protocol)",
+                                            "text": "FTP(File Transfer Protocol) (21)",
                                             "layout": null
                                         },
                                         "children": []
@@ -187,7 +196,7 @@
                                         "data": {
                                             "id": "bu34awuk3gg0",
                                             "created": 1557840314922,
-                                            "text": "HTTP",
+                                            "text": "HTTP(80)",
                                             "layout": null
                                         },
                                         "children": []
@@ -208,7 +217,7 @@
                                     "id": "bu34a7fow7s0",
                                     "created": 1557840259604,
                                     "text": "UDP",
-                                    "expandState": "collapse",
+                                    "expandState": "expand",
                                     "layout": null
                                 },
                                 "children": [
@@ -246,7 +255,7 @@
                                             "id": "bu34dbe5qxs0",
                                             "created": 1557840503311,
                                             "text": "DNS(53)",
-                                            "expandState": "expand",
+                                            "expandState": "collapse",
                                             "layout": null
                                         },
                                         "children": [
@@ -462,35 +471,51 @@
                         "data": {
                             "id": "bu31wmsckv40",
                             "created": 1557833553703,
-                            "text": "主机到主机层（TCP）（又称传输层）",
-                            "expandState": "collapse"
+                            "text": "传输层",
+                            "expandState": "expand"
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "bu31vhlmpg00",
                                     "created": 1557833464049,
-                                    "text": "UDP(User Datagram protocol)"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bu31vgh5pmw0",
-                                    "created": 1557833461601,
-                                    "text": "TCP(Transmission Control Protocol)",
+                                    "text": "UDP",
+                                    "layout": null,
                                     "expandState": "collapse"
                                 },
                                 "children": [
                                     {
                                         "data": {
+                                            "id": "bu34t1srf9s0",
+                                            "created": 1557841736253,
+                                            "text": "User Datagram protocol",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu31vgh5pmw0",
+                                    "created": 1557833461601,
+                                    "text": "TCP",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu34sp2gva00",
+                                            "created": 1557841708541,
+                                            "text": "Transmission Control Protocol"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
                                             "id": "bu343w4euw00",
                                             "created": 1557839764792,
-                                            "text": "三次握手",
-                                            "layout_left_offset": {
-                                                "x": 33,
-                                                "y": 0
-                                            }
+                                            "text": "三次握手"
                                         },
                                         "children": [
                                             {
@@ -505,7 +530,31 @@
                                                         "data": {
                                                             "id": "bu344m1bd0o0",
                                                             "created": 1557839821201,
-                                                            "text": "1. 建立连接 客户端发送连接请求报文段，将SYN位置为1，Sequence Number为x",
+                                                            "text": "1. 请求建立连接 SYN=1, Seq=x  | C: SYN_SEND",
+                                                            "layout_left_offset": {
+                                                                "x": 21,
+                                                                "y": 0
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu344m1bd0o0",
+                                                            "created": 1557839821201,
+                                                            "text": "2. 响应 SYN=1, ACK=x+1, Seq=Y  | S: SYN_RECV",
+                                                            "layout_left_offset": {
+                                                                "x": 21,
+                                                                "y": 0
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu344m1bd0o0",
+                                                            "created": 1557839821201,
+                                                            "text": "3. 确认 SYN=0, ACK=Y+1, Seq=Z  | CS: ESTABLISHED",
                                                             "layout_left_offset": {
                                                                 "x": 21,
                                                                 "y": 0
@@ -531,19 +580,127 @@
                                                             "layout_left_offset": {
                                                                 "x": 20,
                                                                 "y": 2
+                                                            },
+                                                            "expandState": "collapse"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu3kgwaicgg0",
+                                                                    "created": 1557885921654,
+                                                                    "text": "解决网络中存在延迟的重复分组",
+                                                                    "layout_left_offset": {
+                                                                        "x": 27,
+                                                                        "y": 0
+                                                                    }
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bu3k2ywfdr40",
+                                            "created": 1557884830234,
+                                            "text": "四次分手"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu3khdb74rs0",
+                                                    "created": 1557885958701,
+                                                    "text": "过程",
+                                                    "expandState": "collapse"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu344m1bd0o0",
+                                                            "created": 1557839821201,
+                                                            "text": "1. 关闭连接 FIN=1, ACK=z, Seq=x  | 主: FIN_WAIT_1",
+                                                            "layout_left_offset": {
+                                                                "x": 21,
+                                                                "y": 0
                                                             }
                                                         },
                                                         "children": []
                                                     },
                                                     {
                                                         "data": {
+                                                            "id": "bu344m1bd0o0",
+                                                            "created": 1557839821201,
+                                                            "text": "2. 响应 ACK=x+1, Seq=z  | 被: FIN_WAIT_2",
+                                                            "layout_left_offset": {
+                                                                "x": 21,
+                                                                "y": 0
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu344m1bd0o0",
+                                                            "created": 1557839821201,
+                                                            "text": "3. 响应 FIN=1, ACK=x, Seq=Y  | 被: LAST_ACK",
+                                                            "layout_left_offset": {
+                                                                "x": 21,
+                                                                "y": 0
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bu344m1bd0o0",
+                                                            "created": 1557839821201,
+                                                            "text": "4. 响应 ACK=Y, Seq=X  | 主:TIME_WAIT,*等待2MSL*",
+                                                            "layout_left_offset": {
+                                                                "x": 21,
+                                                                "y": 0
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bu3ko3wsdeg0",
+                                                    "created": 1557886486787,
+                                                    "text": "问题",
+                                                    "expandState": "collapse"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bu3ko6siahc0",
+                                                            "created": 1557886493059,
+                                                            "text": "为什么四次分手"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bu3koex2znc0",
+                                                                    "created": 1557886510750,
+                                                                    "text": "TCP是全双工模式，双向确认",
+                                                                    "layout_left_offset": {
+                                                                        "x": 31,
+                                                                        "y": 1
+                                                                    }
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
                                                             "id": "bu345bw1d6g0",
                                                             "created": 1557839877479,
                                                             "text": "为什么要等待2 * MSL（报文段最大生存时间）",
-                                                            "layout_left_offset": {
-                                                                "x": 18,
-                                                                "y": 1
-                                                            },
                                                             "expandState": "collapse"
                                                         },
                                                         "children": [
@@ -685,7 +842,11 @@
                     "id": "bu3424xkv340",
                     "created": 1557839627242,
                     "text": "工具",
-                    "expandState": "collapse"
+                    "expandState": "collapse",
+                    "layout_mind_offset": {
+                        "x": 80,
+                        "y": 5
+                    }
                 },
                 "children": [
                     {
