@@ -25,7 +25,7 @@
                             "id": "bu1wag1idi80",
                             "created": 1557716149502,
                             "text": "基础知识",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "layout": null
                         },
                         "children": [
@@ -556,6 +556,23 @@
                                         ]
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bu9u1qd13xs0",
+                                    "created": 1558522304122,
+                                    "text": "rehash"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bu9u1tzpwt40",
+                                            "created": 1558522312024,
+                                            "text": "与HashMap区别"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -566,7 +583,24 @@
                             "text": "分布式方案",
                             "layout": null
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu9u2aekd280",
+                                    "created": 1558522347750,
+                                    "text": "cluster"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bu9u2diuk4o0",
+                                    "created": 1558522354540,
+                                    "text": "Twemproxy"
+                                },
+                                "children": []
+                            }
+                        ]
                     },
                     {
                         "data": {
@@ -592,7 +626,7 @@
                                     "created": 1557716083692,
                                     "text": "缓存雪崩",
                                     "layout": null,
-                                    "expandState": "expand"
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -812,7 +846,7 @@
                                     "id": "bu235xis8dc0",
                                     "created": 1557735543500,
                                     "text": "缓存击穿",
-                                    "expandState": "expand"
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
