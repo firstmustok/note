@@ -12,7 +12,7 @@
                     "id": "bu20ctpmva80",
                     "created": 1557727620426,
                     "text": "理论及模式",
-                    "expandState": "collapse",
+                    "expandState": "expand",
                     "layout": null
                 },
                 "children": [
@@ -23,7 +23,55 @@
                             "text": "设计模式",
                             "layout": null
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "buadfbwqjbk0",
+                                    "created": 1558576970848,
+                                    "text": "单例"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "buadfkfur340",
+                                            "created": 1558576989419,
+                                            "text": "1. 使用Class锁机制"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "buadftvxe480",
+                                                    "created": 1558577009981,
+                                                    "text": "1 public static synchronized Singleton getInstance(){        \n2     if (instance == null)        \n3     instance = new Singleton();         \n4     return instance;         \n5 } ",
+                                                    "layout_right_offset": {
+                                                        "x": 10,
+                                                        "y": -44
+                                                    }
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buadg5msn1s0",
+                                            "created": 1558577035551,
+                                            "text": "2. double-checked locking"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "buadgex1rg00",
+                                                    "created": 1558577055762,
+                                                    "text": "1 public static Singleton getInstance(){        \n2     if (instance == null)        \n3         synchronized(instance){        \n4             if(instance == null)        \n5                 instance = new Singleton();        \n6         }        \n7     return instance;         \n8 }"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "data": {

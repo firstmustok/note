@@ -127,7 +127,16 @@
                                     "created": 1557888763173,
                                     "text": "violatile"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "buaeia7pamo0",
+                                            "created": 1558580023360,
+                                            "text": "内存屏障"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     }
