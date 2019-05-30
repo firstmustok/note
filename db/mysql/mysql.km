@@ -1,0 +1,155 @@
+{
+    "root": {
+        "data": {
+            "id": "bugby4a5jb40",
+            "created": 1559182160685,
+            "text": "MySQL",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bu20j1vucww0",
+                    "created": 1557728108401,
+                    "text": "数据库事务",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bu20iue3ot40",
+                    "created": 1557728092091,
+                    "text": "数据库引擎",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bu1wlanbxk00",
+                            "created": 1557716999766,
+                            "text": "InnoDB",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bu31phigdls0",
+                                    "created": 1557832993672,
+                                    "text": "支持事务及区别",
+                                    "layout_right_offset": {
+                                        "x": 19,
+                                        "y": 0
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bugbzws4ip40",
+                                    "created": 1559182301085,
+                                    "text": "问题",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bugbzui9slc0",
+                                            "created": 1559182296136,
+                                            "text": "InnoDB中一棵B+树能存多少行数据？",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bugc02pjckg0",
+                                                    "created": 1559182313990,
+                                                    "text": "https://mp.weixin.qq.com/s/m1_vE77Q8K-cQv8Km12PBg",
+                                                    "layout_right_offset": {
+                                                        "x": -19,
+                                                        "y": -1
+                                                    }
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bugc1y8sjdk0",
+                                            "created": 1559182460998,
+                                            "text": "为什么MySQL数据库索引选择使用B+树？",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bugc20p9onc0",
+                                                    "created": 1559182466348,
+                                                    "text": "https://mp.weixin.qq.com/s?__biz=MzI1NDQ3MjQxNA==&mid=2247485383&idx=1&sn=0e0ceaf484054850be559cefa86c5298&chksm=e9c5fe76deb27760f41928f683bdf63cbddeda3e4e6bfb7a55bb9a2f15598f9b41895027471a&scene=21#wechat_redirect",
+                                                    "layout_right_offset": {
+                                                        "x": -32,
+                                                        "y": -1
+                                                    }
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bu1wlewewhc0",
+                            "created": 1557717009022,
+                            "text": "MyIASM",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bu20j7cetn40",
+                    "created": 1557728120287,
+                    "text": "锁",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bu20kysmu8g0",
+                    "created": 1557728258405,
+                    "text": "数据库优化",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bugbz8ta5go0",
+                    "created": 1559182248913,
+                    "text": "索引"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bugbzc639ig0",
+                            "created": 1559182256217,
+                            "text": ""
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
