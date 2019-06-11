@@ -32,10 +32,80 @@
                                 "data": {
                                     "id": "bu1zqu7hd9c0",
                                     "created": 1557725897494,
-                                    "text": "为什么时final?",
-                                    "layout": null
+                                    "text": "为什么是final?",
+                                    "layout": null,
+                                    "expandState": "expand"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "buqlb2k0nfk0",
+                                            "created": 1560224165218,
+                                            "text": "实现"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "buqlb3zjfw00",
+                                                    "created": 1560224168333,
+                                                    "text": "private成员value"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "buqlb94s0lk0",
+                                                    "created": 1560224179534,
+                                                    "text": "类final, 不可继承"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buqlh42fnu00",
+                                            "created": 1560224638693,
+                                            "text": "好处",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "buqo2qn33gw0",
+                                                    "created": 1560231975698,
+                                                    "text": "确保它们不会在子类中改变语义"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "buqlhdhhrig0",
+                                                    "created": 1560224659194,
+                                                    "text": "一但创建，不可修改"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "buqlh63g5sw0",
+                                                    "created": 1560224643108,
+                                                    "text": "可以共享",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "buqlhtufrhc0",
+                                                    "created": 1560224694806,
+                                                    "text": "JVM来看，无虚函数表，共享效率更高"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 "data": {
@@ -101,7 +171,7 @@
                             "id": "bu3lgtvg2aw0",
                             "created": 1557888737499,
                             "text": "多线程",
-                            "expandState": "expand"
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -139,6 +209,103 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "buql0fao4680",
+                            "created": 1560223330945,
+                            "text": "异常"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "buql0j9zhds0",
+                                    "created": 1560223339610,
+                                    "text": "Throwable",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "buql5ol29d40",
+                                            "created": 1560223742985,
+                                            "text": "Exception",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "buql0ll8rj40",
+                                                    "created": 1560223344645,
+                                                    "text": "Checked Exception"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "buql1wth7600",
+                                                            "created": 1560223447451,
+                                                            "text": "需要显示声明"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "buql25i7g140",
+                                                            "created": 1560223466361,
+                                                            "text": "需要捕获"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "buql7q5vd140",
+                                                    "created": 1560223903148,
+                                                    "text": "unchecked",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "buql0n8udz40",
+                                                            "created": 1560223348249,
+                                                            "text": "RuntimeException"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buql0ha4koo0",
+                                            "created": 1560223335265,
+                                            "text": "Error"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "buql166qd340",
+                                                    "created": 1560223389480,
+                                                    "text": "JVM检测"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "buql19jnzjc0",
+                                                    "created": 1560223396792,
+                                                    "text": "无法捕获"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -160,7 +327,7 @@
                             "id": "bu1zfjf41c80",
                             "created": 1557725012006,
                             "text": "concurrent",
-                            "expandState": "expand",
+                            "expandState": "collapse",
                             "layout": null
                         },
                         "children": [
