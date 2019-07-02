@@ -21,7 +21,8 @@
                             "id": "bu20d0yk0qg0",
                             "created": 1557727636203,
                             "text": "设计模式",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -165,7 +166,67 @@
                             "text": "幂等性",
                             "layout": null
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bueon1vu3uo0",
+                                    "created": 1559014847975,
+                                    "text": "加锁方案",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bueomd7gl7s0",
+                                            "created": 1559014794258,
+                                            "text": "悲观锁"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bueomhr7j8w0",
+                                                    "created": 1559014804160,
+                                                    "text": "select * for update"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bueomwutg7s0",
+                                            "created": 1559014837030,
+                                            "text": "分布式锁"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bueompt3bfs0",
+                                            "created": 1559014821688,
+                                            "text": "乐观锁"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bueone6pet40",
+                                    "created": 1559014874754,
+                                    "text": "全局唯一ID"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bueonq3s4dc0",
+                                    "created": 1559014900698,
+                                    "text": "状态幂等"
+                                },
+                                "children": []
+                            }
+                        ]
                     },
                     {
                         "data": {
@@ -452,7 +513,7 @@
                     "id": "bu1vwm5vw6g0",
                     "created": 1557715065728,
                     "text": "负载均衡",
-                    "expandState": "collapse",
+                    "expandState": "expand",
                     "layout": null
                 },
                 "children": [
@@ -507,7 +568,7 @@
                                     "id": "bu1vxdqxpio0",
                                     "created": 1557715125774,
                                     "text": "软件",
-                                    "expandState": "collapse",
+                                    "expandState": "expand",
                                     "layout": null
                                 },
                                 "children": [
@@ -532,6 +593,25 @@
                                     },
                                     {
                                         "data": {
+                                            "id": "bu1vxx5hbw80",
+                                            "created": 1557715168013,
+                                            "text": "HAProxy",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bu1vy0xn0280",
+                                                    "created": 1557715176246,
+                                                    "text": "4层",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
                                             "id": "bu1vxqpbye00",
                                             "created": 1557715153976,
                                             "text": "Nginx",
@@ -546,23 +626,12 @@
                                                     "layout": null
                                                 },
                                                 "children": []
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "bu1vxx5hbw80",
-                                            "created": 1557715168013,
-                                            "text": "HAProxy",
-                                            "layout": null
-                                        },
-                                        "children": [
+                                            },
                                             {
                                                 "data": {
-                                                    "id": "bu1vy0xn0280",
-                                                    "created": 1557715176246,
-                                                    "text": "4层",
-                                                    "layout": null
+                                                    "id": "bv8ogep3a9s0",
+                                                    "created": 1562061126016,
+                                                    "text": "热升级 update-on-fly"
                                                 },
                                                 "children": []
                                             }

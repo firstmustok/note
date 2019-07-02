@@ -193,7 +193,7 @@
                                             "id": "bu1zxuqzy2w0",
                                             "created": 1557726447223,
                                             "text": "快照(RDB Snapshot)",
-                                            "expandState": "collapse",
+                                            "expandState": "expand",
                                             "layout": null
                                         },
                                         "children": [
@@ -231,7 +231,7 @@
                                                     "id": "bu1zymzrjko0",
                                                     "created": 1557726508703,
                                                     "text": "原理及实现",
-                                                    "expandState": "collapse",
+                                                    "expandState": "expand",
                                                     "layout": null
                                                 },
                                                 "children": [
@@ -248,7 +248,7 @@
                                                         "data": {
                                                             "id": "bu1zyyg9xb40",
                                                             "created": 1557726533646,
-                                                            "text": "子进程将数据写到*临时*文件 (默认dump.rdb)",
+                                                            "text": "子进程将数据写到*临时*文件 (默认dump.rdb), 子进程默认共享父进程的内存空间",
                                                             "expandState": "collapse",
                                                             "layout": null
                                                         },
