@@ -1,5 +1,7 @@
 ## 寻找并删除 Git 记录中的大文件
 
+from: https://cloud.tencent.com/developer/article/1141896
+
 ### 首先通过 rev-list 来找到仓库记录中的大文件：
 
 ```shell
