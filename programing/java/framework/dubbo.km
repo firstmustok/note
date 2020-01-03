@@ -53,6 +53,23 @@
                             }
                         },
                         "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bzlx6ud2ork0",
+                            "created": 1578030679663,
+                            "text": "参数为InputStream"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bzlx72vl8g80",
+                                    "created": 1578030698196,
+                                    "text": "Hessian"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             }

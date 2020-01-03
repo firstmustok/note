@@ -45,7 +45,7 @@
                     "id": "bu1zm81o6yo0",
                     "created": 1557725535797,
                     "text": "技术及源码分析",
-                    "expandState": "collapse",
+                    "expandState": "expand",
                     "layout": null,
                     "layout_mind_offset": {
                         "x": 94,
@@ -79,6 +79,103 @@
                             "layout": null
                         },
                         "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bva8z4tv9nk0",
+                            "created": 1562220575611,
+                            "text": "Transactional实现原理"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bzf8vn110000",
+                            "created": 1577352735313,
+                            "text": "Bean生命周期"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bzlwv5io7hs0",
+                                    "created": 1578029763576,
+                                    "text": "1 实例化Bean对象"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bzlwvevt32w0",
+                                    "created": 1578029783961,
+                                    "text": "2 实例化对象属性"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bzlwvot0sv40",
+                                    "created": 1578029805560,
+                                    "text": "3 检查Aware接口并设置相关依赖"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bzlww018azk0",
+                                    "created": 1578029830001,
+                                    "text": "4 BeanPreProcessor"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bzlww8bwclk0",
+                                    "created": 1578029848061,
+                                    "text": "5 检查是否是InitializingBean决定是否调用afterPropertiesSet"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bzlwwxd6j740",
+                                    "created": 1578029902558,
+                                    "text": "6 BeanPostProcessor"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bzlwx7eoleo0",
+                                    "created": 1578029924416,
+                                    "text": "7 检查自定义的init-method"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bzlwxifx6ew0",
+                                    "created": 1578029948436,
+                                    "text": "8 使用中..."
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bzlwxmwpxgw0",
+                                    "created": 1578029958159,
+                                    "text": "9 检查DisposableBean决定调用destory"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bzlwxzexdyo0",
+                                    "created": 1578029985381,
+                                    "text": "10 检查自定义的destory-method"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             }

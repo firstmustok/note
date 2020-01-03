@@ -25,7 +25,8 @@
                             "id": "bu1zqs3tft40",
                             "created": 1557725892919,
                             "text": "String",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -171,7 +172,7 @@
                             "id": "bu3lgtvg2aw0",
                             "created": 1557888737499,
                             "text": "多线程",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -207,6 +208,30 @@
                                         "children": []
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bzlx54crem00",
+                                    "created": 1578030544683,
+                                    "text": "Countdownlatch"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bzlx5p6f7m80",
+                                    "created": 1578030590012,
+                                    "text": "CyclicBarrier"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bzlx5z8gu9k0",
+                                    "created": 1578030611904,
+                                    "text": "Semaphore"
+                                },
+                                "children": []
                             }
                         ]
                     },
@@ -314,7 +339,7 @@
                     "id": "bu1u73nbp2g0",
                     "created": 1557710245210,
                     "text": "Java源代码",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "layout": null,
                     "layout_mind_offset": {
                         "x": -102,
@@ -327,7 +352,7 @@
                             "id": "bu1zfjf41c80",
                             "created": 1557725012006,
                             "text": "concurrent",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "layout": null
                         },
                         "children": [
@@ -345,7 +370,7 @@
                                             "id": "bu3l8wu2wvc0",
                                             "created": 1557888117034,
                                             "text": "1.7 vs 1.8",
-                                            "expandState": "collapse"
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
@@ -501,7 +526,7 @@
                                     "created": 1557725606912,
                                     "text": "AQS (AbstractQueuedSynchronnizer)",
                                     "layout": null,
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -588,7 +613,7 @@
                             "id": "bu1zfwcfv6g0",
                             "created": 1557725040141,
                             "text": "HashMap",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "layout": null
                         },
                         "children": [
@@ -610,7 +635,7 @@
                     "id": "bu1vvndbv5s0",
                     "created": 1557714989991,
                     "text": "JVM",
-                    "expandState": "collapse",
+                    "expandState": "expand",
                     "layout": null,
                     "layout_mind_offset": {
                         "x": 66,
@@ -637,6 +662,18 @@
                         "children": []
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "bzlx4gm17ts0",
+                    "created": 1578030493001,
+                    "text": "版本差异",
+                    "layout_mind_offset": {
+                        "x": 69,
+                        "y": -1
+                    }
+                },
+                "children": []
             }
         ]
     },

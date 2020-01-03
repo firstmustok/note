@@ -1,0 +1,111 @@
+{
+    "root": {
+        "data": {
+            "id": "bzeziys7okg0",
+            "created": 1577326352178,
+            "text": "数据库设计"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bzezj5e93nk0",
+                    "created": 1577326366572,
+                    "text": "层级表设计"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bzezj8s33ag0",
+                            "created": 1577326373938,
+                            "text": "邻接表模型"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bzezjvex4rk0",
+                                    "created": 1577326423208,
+                                    "text": "表结构: id, name, parent_id"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bzezjp7up6o0",
+                            "created": 1577326409720,
+                            "text": "基于路径和层级的表设计"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bzezkfoiw5s0",
+                                    "created": 1577326467325,
+                                    "text": "表结构： id, name, parent_id, path, level"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bzezl9o0k4w0",
+                                            "created": 1577326532597,
+                                            "text": "key: 搜索路径   parent_id1 + parent_id2"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bzezlno3tnc0",
+                                            "created": 1577326563078,
+                                            "text": "level: 层级"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bzezlzxaih40",
+                                    "created": 1577326589755,
+                                    "text": "查询使用"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bzezm40idzk0",
+                                            "created": 1577326598656,
+                                            "text": "查找d的所有子孙节点：select * from table_name where key like \"${d.key}-${d.id}-%\""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bzezm9sl8l40",
+                                            "created": 1577326611238,
+                                            "text": "查找d节点的所有子节点：select * from table_name where key like \"${d.key}-${d.id}-%\" and level=${d.level}+1",
+                                            "layout_right_offset": {
+                                                "x": 4,
+                                                "y": 3
+                                            }
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bzezncyt1hk0",
+                            "created": 1577326696509,
+                            "text": "基于左右值编码的表设计(MPT)"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

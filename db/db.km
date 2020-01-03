@@ -89,7 +89,7 @@
                             "id": "bu1wgq3s9eg0",
                             "created": 1557716641592,
                             "text": " 高并发方案",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "layout": null
                         },
                         "children": [
@@ -137,7 +137,7 @@
                                     "id": "bu1wgaqsdyw0",
                                     "created": 1557716608154,
                                     "text": "分表",
-                                    "expandState": "collapse",
+                                    "expandState": "expand",
                                     "layout": null
                                 },
                                 "children": [
@@ -185,6 +185,14 @@
                                             "text": "优点",
                                             "expandState": "expand",
                                             "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bz1f8d31p880",
+                                            "created": 1575948819668,
+                                            "text": "分表 vs 分区"
                                         },
                                         "children": []
                                     }
