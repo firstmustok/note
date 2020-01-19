@@ -14,7 +14,150 @@
                     "text": "数据库事务",
                     "layout": null
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "bzzuhwvwx540",
+                            "created": 1579444923225,
+                            "text": "隔离级别",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bzzui3ukjcw0",
+                                    "created": 1579444938381,
+                                    "text": "1 序列化"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bzzuid5s1gg0",
+                                    "created": 1579444958650,
+                                    "text": "2 可重复读"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bzzuku990j40",
+                                            "created": 1579445152593,
+                                            "text": "不可重复读"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bzzultdqz940",
+                                                    "created": 1579445229053,
+                                                    "text": "[单条数据]  update/delete 同一事务中两次读的内存不一样",
+                                                    "layout_right_offset": {
+                                                        "x": -32,
+                                                        "y": 0
+                                                    }
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bzzuije7fv40",
+                                    "created": 1579444972220,
+                                    "text": "3 读已提交"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bzzujb7cktc0",
+                                            "created": 1579445032755,
+                                            "text": "幻读"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bzzumj1zaow0",
+                                                    "created": 1579445284937,
+                                                    "text": "update/insert 再次读取数据条数不一样"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bzzuiq0x4mw0",
+                                    "created": 1579444986654,
+                                    "text": "4 读未提交"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bzzuj3ne7hk0",
+                                            "created": 1579445016311,
+                                            "text": "脏读"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bzzuntdlxnk0",
+                                                    "created": 1579445385773,
+                                                    "text": "[单条数据] 读取未提交数据"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bzzukmkhfvk0",
+                            "created": 1579445135858,
+                            "text": "ACID",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bzzurggaidc0",
+                                    "created": 1579445671093,
+                                    "text": "Atomicity 原子性"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bzzurpe8tug0",
+                                    "created": 1579445690561,
+                                    "text": "Consistency 一致性"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bzzus29uo600",
+                                    "created": 1579445718593,
+                                    "text": "Isolation 隔离性"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bzzushifjhc0",
+                                    "created": 1579445751764,
+                                    "text": "Durabilty 持久性"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "data": {
@@ -44,6 +187,57 @@
                                     }
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bzzutyxsb2o0",
+                                    "created": 1579445868062,
+                                    "text": "源码及实现"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bzzuum6dwfc0",
+                                            "created": 1579445918648,
+                                            "text": "log",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bzzuubw61lk0",
+                                                    "created": 1579445896262,
+                                                    "text": "bin log"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bzzuu9aeem80",
+                                                    "created": 1579445890592,
+                                                    "text": "undo log"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bzzuu5ybehs0",
+                                                    "created": 1579445883331,
+                                                    "text": "redo log"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bzzuurodxzk0",
+                                            "created": 1579445930620,
+                                            "text": "chanage buffer"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
@@ -128,7 +322,64 @@
                     "text": "数据库优化",
                     "layout": null
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "bzzuvsiwcw00",
+                            "created": 1579446010829,
+                            "text": "索引"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bzzuvvg7ia80",
+                            "created": 1579446017197,
+                            "text": "分库分表"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bzzuwgug15c0",
+                            "created": 1579446063770,
+                            "text": "主从部署"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bzzuw1g6lw80",
+                            "created": 1579446030256,
+                            "text": "批量操作"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bzzuw5hkmm80",
+                            "created": 1579446039047,
+                            "text": "分页算法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bzzuw83q16g0",
+                            "created": 1579446044740,
+                            "text": "升级硬盘SSD"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bzzuwd48hi80",
+                            "created": 1579446055655,
+                            "text": "业务优化"
+                        },
+                        "children": []
+                    }
+                ]
             },
             {
                 "data": {
