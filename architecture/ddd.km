@@ -1,0 +1,382 @@
+{
+    "root": {
+        "data": {
+            "id": "c1wc0vzucm80",
+            "created": 1586400446127,
+            "text": "领域驱动设计（DDD）"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c1wc182ovgo0",
+                    "created": 1586400472420,
+                    "text": "领域",
+                    "layout_mind_offset": {
+                        "x": -80,
+                        "y": -7
+                    },
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c1wc1punl8w0",
+                            "created": 1586400511116,
+                            "text": "子域"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c1wc28al9gg0",
+                            "created": 1586400551262,
+                            "text": "分类"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c1wc2a7upyo0",
+                                    "created": 1586400555450,
+                                    "text": "核心域"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c1wc2d7sd9s0",
+                                    "created": 1586400561976,
+                                    "text": "通用域"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c1wc2gjuths0",
+                                    "created": 1586400569237,
+                                    "text": "支撑域"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c1wc3b7lxr40",
+                            "created": 1586400635976,
+                            "text": "限界上下文"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c1wc3hwjvuo0",
+                                    "created": 1586400650545,
+                                    "text": "通用语言定义上下文含义，限界上下文则定义领域边界"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c1wc4kqr5q80",
+                            "created": 1586400735089,
+                            "text": "领域对象"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c1wc4mifulk0",
+                                    "created": 1586400738940,
+                                    "text": "实体"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1wc5ym6j2w0",
+                                            "created": 1586400843652,
+                                            "text": "它们拥有唯一标识符，且标识符在历经各种状态变更后仍能保持一致。对这些对象而言，重要的不是其属性，而是其延续性和标识，对象的延续性和标识会跨越甚至超出软件的生命周期。"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c1wc4sxuzww0",
+                                    "created": 1586400752933,
+                                    "text": "值对象"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1wc6c48quw0",
+                                            "created": 1586400873042,
+                                            "text": "通过对象属性值来识别的对象，它将多个相关属性组合为一个概念整体。在 DDD 中用来描述领域的特定方面，并且是一个没有标识符的对象，叫作值对象。"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c1wc3rr8dnk0",
+                            "created": 1586400671991,
+                            "text": "事件风暴"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c1wc75q2hr40",
+                                    "created": 1586400937488,
+                                    "text": "聚合（Aggregate）"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c1wc79yxxag0",
+                                    "created": 1586400946732,
+                                    "text": "聚合根（AggregateRoot）"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c1wc5ekbqzk0",
+                    "created": 1586400800004,
+                    "text": "宏观视图设计",
+                    "expandState": "expand",
+                    "layout_mind_offset": {
+                        "x": -42,
+                        "y": 8
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c1wc4ar24cw0",
+                            "created": 1586400713340,
+                            "text": "战略设计"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c1wc5976vt40",
+                            "created": 1586400788326,
+                            "text": "战术设计"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c1wc85qb2qo0",
+                    "created": 1586401015867,
+                    "text": "领域事件",
+                    "layout_mind_offset": {
+                        "x": -75,
+                        "y": 3
+                    },
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c1wc8e22mz40",
+                            "created": 1586401033993,
+                            "text": "这种事件发生后通常会导致进一步的业务操作"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c1wc9baspqw0",
+                            "created": 1586401106354,
+                            "text": "解耦微服务的关键"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c1wc9ht7rt40",
+                    "created": 1586401120528,
+                    "text": "分层架构"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c1wca5w32mw0",
+                            "created": 1586401172945,
+                            "text": "微服务架构模型",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c1wca93zki80",
+                                    "created": 1586401179953,
+                                    "text": "整洁架构"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c1wcae2lihs0",
+                                    "created": 1586401190753,
+                                    "text": "CQRS"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c1wcahwdv200",
+                                    "created": 1586401199084,
+                                    "text": "六边形架构"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c1wcb2p5i5s0",
+                            "created": 1586401244359,
+                            "text": "四层架构",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c1wcbbp74280",
+                                    "created": 1586401263953,
+                                    "text": "4 用户接口层",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1wcbdmqqvk0",
+                                            "created": 1586401268158,
+                                            "text": "用户、程序、自动化测试和批处理脚本"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c1wcbj72p5k0",
+                                    "created": 1586401280272,
+                                    "text": "3 应用层",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1wcbz2gzog0",
+                                            "created": 1586401314822,
+                                            "text": "理论上不应该有业务规则或逻辑"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c1wcc4qgbhs0",
+                                    "created": 1586401327156,
+                                    "text": "2 领域层",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1wcca96pbk0",
+                                            "created": 1586401339172,
+                                            "text": "聚合根、实体、值对象、领域服务等领域模型中的领域对象"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c1wcchoxoh40",
+                                    "created": 1586401355362,
+                                    "text": "1 基础层"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c1wcd5gyro00",
+                            "created": 1586401407123,
+                            "text": "分层"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c1wcdh4av9s0",
+                                    "created": 1586401432479,
+                                    "text": "严格分层架构",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1wcdok5wq00",
+                                            "created": 1586401448675,
+                                            "text": "任何层只能对位于其直接下方的层产生依赖"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c1wcdk6n8y80",
+                                    "created": 1586401439151,
+                                    "text": "松散分层架构"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c1wcpndwx3k0",
+                    "created": 1586402386490,
+                    "text": "示例",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c1wcpu59y480",
+                            "created": 1586402401206,
+                            "text": "https://github.com/ouchuangxin/leave-sample"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
