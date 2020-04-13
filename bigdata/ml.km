@@ -1,0 +1,26 @@
+{
+    "root": {
+        "data": {
+            "id": "c1zw717ppw00",
+            "created": 1586762029740,
+            "text": "机器学习"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c1zw75o6hw80",
+                    "created": 1586762039442,
+                    "text": "https://zhuanlan.zhihu.com/p/33104850",
+                    "layout_mind_offset": {
+                        "x": -66,
+                        "y": -1
+                    }
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
