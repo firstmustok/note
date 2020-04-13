@@ -12,7 +12,8 @@
                     "id": "bu20j1vucww0",
                     "created": 1557728108401,
                     "text": "数据库事务",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -156,6 +157,72 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "c1wbdefanko0",
+                            "created": 1586398605503,
+                            "text": "MVCC",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c1wd3jyx32g0",
+                                    "created": 1586403476152,
+                                    "text": "1 已经提交事务",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1wbdh48v6o0",
+                                            "created": 1586398611365,
+                                            "text": "低水位",
+                                            "layout_right_offset": {
+                                                "x": -10,
+                                                "y": 2
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c1wd4zu1wjs0",
+                                                    "created": 1586403589050,
+                                                    "text": "数组里面事务 ID 的最小值"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c1wd3p56zf40",
+                                    "created": 1586403487415,
+                                    "text": "2 未提交事务 - 集合"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c1wd3xh72i00",
+                                    "created": 1586403505555,
+                                    "text": "3 未开始事务"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1wd4fgrrrk0",
+                                            "created": 1586403544711,
+                                            "text": "高水位"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -173,7 +240,8 @@
                             "id": "bu1wlanbxk00",
                             "created": 1557716999766,
                             "text": "InnoDB",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -225,7 +293,46 @@
                                                     "created": 1579445883331,
                                                     "text": "redo log"
                                                 },
-                                                "children": []
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c1wd1ka4x9k0",
+                                                            "created": 1586403320102,
+                                                            "text": "两阶段提交",
+                                                            "layout_right_offset": {
+                                                                "x": -28,
+                                                                "y": 0
+                                                            },
+                                                            "expandState": "collapse"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c1wd1wj9gcg0",
+                                                                    "created": 1586403346775,
+                                                                    "text": "1 写redo"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c1wd200mpzc0",
+                                                                    "created": 1586403354355,
+                                                                    "text": "2 写undo"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c1wd276pkw80",
+                                                                    "created": 1586403369961,
+                                                                    "text": "3 更新redo为提交"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
                                             }
                                         ]
                                     },
@@ -320,7 +427,8 @@
                     "id": "bu20kysmu8g0",
                     "created": 1557728258405,
                     "text": "数据库优化",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -385,14 +493,84 @@
                 "data": {
                     "id": "bugbz8ta5go0",
                     "created": 1559182248913,
-                    "text": "索引"
+                    "text": "索引",
+                    "expandState": "expand"
                 },
                 "children": [
                     {
                         "data": {
-                            "id": "bugbzc639ig0",
-                            "created": 1559182256217,
-                            "text": ""
+                            "id": "c1wdf17man40",
+                            "created": 1586404375689,
+                            "text": "类型",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c1wbbp1f0mg0",
+                                    "created": 1586398471880,
+                                    "text": "唯一索引"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1wbcm988kg0",
+                                            "created": 1586398544186,
+                                            "text": "插入数据需要访问磁盘"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c1wbbtqbals0",
+                                    "created": 1586398482093,
+                                    "text": "普通索引"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1wbczmbsao0",
+                                            "created": 1586398573277,
+                                            "text": "直接写入change buffer"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c1wbchz36w00",
+                                    "created": 1586398534866,
+                                    "text": "change buffer"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1wbf5is9nk0",
+                                            "created": 1586398742851,
+                                            "text": "如果所有的更新后面，都马上伴随着对这个记录的查询"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c1wdf8gpotk0",
+                            "created": 1586404391476,
+                            "text": "覆盖索引"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c1wdfsdylpc0",
+                            "created": 1586404434846,
+                            "text": "索引下推"
                         },
                         "children": []
                     }
