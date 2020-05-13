@@ -12,7 +12,7 @@
                     "id": "bu1zgqtiu0o0",
                     "created": 1557725106478,
                     "text": "基础知识",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "layout": null,
                     "layout_mind_offset": {
                         "x": -104,
@@ -196,14 +196,24 @@
                                 "data": {
                                     "id": "bu3lh5o1m5c0",
                                     "created": 1557888763173,
-                                    "text": "violatile"
+                                    "text": "violatile",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
+                                            "id": "c2nmy4ehi1s0",
+                                            "created": 1589173380373,
+                                            "text": "1. 内存可见性 - 每次读取内存"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
                                             "id": "buaeia7pamo0",
                                             "created": 1558580023360,
-                                            "text": "内存屏障"
+                                            "text": "2 内存屏障 - 防止指令重排",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -342,8 +352,8 @@
                     "expandState": "collapse",
                     "layout": null,
                     "layout_mind_offset": {
-                        "x": -102,
-                        "y": 33
+                        "x": 46,
+                        "y": -69
                     }
                 },
                 "children": [
@@ -352,7 +362,7 @@
                             "id": "bu1zfjf41c80",
                             "created": 1557725012006,
                             "text": "concurrent",
-                            "expandState": "expand",
+                            "expandState": "collapse",
                             "layout": null
                         },
                         "children": [
@@ -638,7 +648,7 @@
                     "expandState": "expand",
                     "layout": null,
                     "layout_mind_offset": {
-                        "x": 66,
+                        "x": -27,
                         "y": -2
                     }
                 },
@@ -660,6 +670,14 @@
                             "layout": null
                         },
                         "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c2nmzfs8gy80",
+                            "created": 1589173483513,
+                            "text": "内存模型"
+                        },
+                        "children": []
                     }
                 ]
             },
@@ -669,11 +687,112 @@
                     "created": 1578030493001,
                     "text": "版本差异",
                     "layout_mind_offset": {
-                        "x": 69,
-                        "y": -1
+                        "x": 20,
+                        "y": -32
                     }
                 },
                 "children": []
+            },
+            {
+                "data": {
+                    "id": "c2nmsct7y480",
+                    "created": 1589172928493,
+                    "text": "面试",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c2nmsgk94pk0",
+                            "created": 1589172936658,
+                            "text": "美团7连炮  Object obj = new Object();",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c2nmt1kkrdc0",
+                                    "created": 1589172982390,
+                                    "text": "1. 请解释一下创建过程  - 半初始化"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c2nmteymrxs0",
+                                    "created": 1589173011538,
+                                    "text": "2 加问DCL与volatile问题 - 指令重排"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c2nmvohrrs00",
+                                    "created": 1589173189016,
+                                    "text": "3. 对象在内存中的存储布局 - 对象与数组的存储不同"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c2nmvw7vjbc0",
+                                    "created": 1589173205831,
+                                    "text": "4. 对象头具体包括什么? (markword klasspointer)synchronized锁信息"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c2nmw4dhuzc0",
+                                    "created": 1589173223585,
+                                    "text": "5 对象怎么定位? (直接间接)"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c2nmw9pxoow0",
+                                    "created": 1589173235221,
+                                    "text": "6. 对象怎么分配? (栈上-线程本地- Eden -0ld)"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c2nmwfbppzk0",
+                                    "created": 1589173247421,
+                                    "text": "7. object。= new Object()在内存中占用多少字节?"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c2nmwk4n9k00",
+                                    "created": 1589173257878,
+                                    "text": "8. Class对象在方法区还在是堆区"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c2opfiwf0q80",
+                            "created": 1589281946299,
+                            "text": "JVM内存不要超过32G"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c2p82po4w0g0",
+                                    "created": 1589334543390,
+                                    "text": "由于对象是8字节对齐的, 因此对象起始地址最低三位总是0"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
