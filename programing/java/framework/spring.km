@@ -27,7 +27,70 @@
                             "text": "AOP",
                             "layout": null
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c2tioiko1p40",
+                                    "created": 1589770702880,
+                                    "text": "动态",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c2timwf3g5c0",
+                                            "created": 1589770576290,
+                                            "text": "JDK Proxy"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c2tin1jzmlk0",
+                                                    "created": 1589770587470,
+                                                    "text": "实现了某个接口"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c2tindkfznc0",
+                                            "created": 1589770613619,
+                                            "text": "Cglib"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c2tinhekegw0",
+                                                    "created": 1589770621970,
+                                                    "text": "没有实现接口"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c2tiopuyw3s0",
+                                    "created": 1589770718741,
+                                    "text": "静态（编译期间）",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c2tio4umssw0",
+                                            "created": 1589770673008,
+                                            "text": "AspectJ"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "data": {
@@ -92,7 +155,8 @@
                         "data": {
                             "id": "bzf8vn110000",
                             "created": 1577352735313,
-                            "text": "Bean生命周期"
+                            "text": "Bean生命周期",
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -172,6 +236,55 @@
                                     "id": "bzlwxzexdyo0",
                                     "created": 1578029985381,
                                     "text": "10 检查自定义的destory-method"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c2tiprcjcyw0",
+                            "created": 1589770800344,
+                            "text": "Bean作用域"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c2tiq4dnewo0",
+                                    "created": 1589770828709,
+                                    "text": "singleton : 唯一 bean 实例，Spring 中的 bean 默认都是单例的。"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c2tiq9z9x7c0",
+                                    "created": 1589770840901,
+                                    "text": "prototype : 每次请求都会创建一个新的 bean 实例。"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c2tiqdpovrs0",
+                                    "created": 1589770849028,
+                                    "text": "request : 每一次HTTP请求都会产生一个新的bean，该bean仅在当前HTTP request内有效"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c2tiqgzwt2w0",
+                                    "created": 1589770856177,
+                                    "text": "session : 每一次HTTP请求都会产生一个新的 bean，该bean仅在当前 HTTP session 内有效。"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c2tiqmc16ig0",
+                                    "created": 1589770867794,
+                                    "text": "global-session： 全局session作用域，仅仅在基于portlet的web应用中才有意义，Spring5已经没有了。"
                                 },
                                 "children": []
                             }
