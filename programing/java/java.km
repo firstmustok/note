@@ -15,8 +15,8 @@
                     "expandState": "collapse",
                     "layout": null,
                     "layout_mind_offset": {
-                        "x": -104,
-                        "y": -41
+                        "x": -52,
+                        "y": -113
                     }
                 },
                 "children": [
@@ -349,11 +349,11 @@
                     "id": "bu1u73nbp2g0",
                     "created": 1557710245210,
                     "text": "Java源代码",
-                    "expandState": "collapse",
+                    "expandState": "expand",
                     "layout": null,
                     "layout_mind_offset": {
-                        "x": 46,
-                        "y": -69
+                        "x": -57,
+                        "y": -55
                     }
                 },
                 "children": [
@@ -637,6 +637,112 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "c32zmkfcxfk0",
+                            "created": 1590732548663,
+                            "text": "Stream",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c32zmmtkejk0",
+                                    "created": 1590732553876,
+                                    "text": "中间操作 Intermediate operations",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c32zn88kqow0",
+                                            "created": 1590732600496,
+                                            "text": "无状态(Stateless)"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c32znf4s9g80",
+                                                    "created": 1590732615504,
+                                                    "text": "unordered() filter() map() mapToInt() mapToLong() mapToDouble() flatMap() flatMapToInt() flatMapToLong() flatMapToDouble() peek()"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c32zn96ukf40",
+                                            "created": 1590732602568,
+                                            "text": "有状态(Stateful)"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c32znig9siw0",
+                                                    "created": 1590732622729,
+                                                    "text": "distinct() sorted() sorted() limit() skip()"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c32zmti4c9k0",
+                                    "created": 1590732568421,
+                                    "text": "结束操作 teminate operations",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c32znmhngpk0",
+                                            "created": 1590732631519,
+                                            "text": "非短路操作"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c32znxhfdqg0",
+                                                    "created": 1590732655450,
+                                                    "text": "forEach() forEachOrdered() toArray() reduce() collect() max() min() count()"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c32znpj59qg0",
+                                            "created": 1590732638140,
+                                            "text": "短路操作(short-circuiting)"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c32znpqa8ko0",
+                                                    "created": 1590732638572,
+                                                    "text": "anyMatch() allMatch() noneMatch() findFirst() findAny()"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c37xoovxzfc0",
+                                    "created": 1591234872665,
+                                    "text": "ref: https://zhuanlan.zhihu.com/p/31220388"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             },
@@ -698,7 +804,7 @@
                     "id": "c2nmsct7y480",
                     "created": 1589172928493,
                     "text": "面试",
-                    "expandState": "expand"
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
